@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Mohan Nataraj</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Dec 2020 01:49:15 +0530</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Math Modelling Competition : NP-Complete and P Time</title>
+      <link>/project/math-modelling-competition-np-complete-and-p-time/</link>
+      <pubDate>Mon, 14 Dec 2020 01:49:15 +0530</pubDate>
+      <guid>/project/math-modelling-competition-np-complete-and-p-time/</guid>
+      <description>&lt;h2 id=&#34;1-problem-statement&#34;&gt;&lt;strong&gt;1. Problem Statement&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In this project we build &lt;em&gt;mathematical model or models&lt;/em&gt; to &lt;strong&gt;optimize (maximize) the expected profit&lt;/strong&gt;
+for the next year by optimizing the delivery and stock inventory of the products between the factory,
+warehouse and shops, given logistics of sales for the year 2015. We further formalize the model by
+answering the questions in section [3]&lt;br/&gt; &lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-overview-br&#34;&gt;&lt;strong&gt;2. Overview&lt;/strong&gt; &lt;br/&gt;&lt;/h2&gt;
+&lt;p&gt;In this section we give the important points required in understanding and solving (formalizing) the
+problem.&lt;/p&gt;
+&lt;h4 id=&#34;21-the-product&#34;&gt;&lt;strong&gt;2.1. The Product&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;In this industry we have two types of products are sold. - Product 1 : Air conditioner = Pr1 - Product
+2 : Heater = Pr 2 Comments: - Sales do not occur the same time. (i.e. the sales of P1 and P2 are
+seasonal - P2 can be assumed to be sold in Winter and P1 summer). - Amount of work and sales is
+constant throughout the year&lt;/p&gt;
+&lt;h4 id=&#34;22-location-of-resources&#34;&gt;&lt;strong&gt;2.2. Location of Resources&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Resources:&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-game-map-analogy---to-real-world---_p-goods-production-w-amazonwalmart-warehouse-s-shops-or-people-to-be-delivered_&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/math-modelling-competition-np-complete-and-p-time/featured1_hufaa0f14afa97babc03a0ab0a96b16618_61520_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;&amp;lt;strong&amp;gt;Game Map Analogy - to real world :-&amp;lt;/strong&amp;gt; &amp;lt;em&amp;gt;&amp;lt;strong&amp;gt;(P: goods production, W: Amazon/Walmart Warehouse, S: shops or people to be delivered)&amp;lt;/strong&amp;gt;&amp;lt;/em&amp;gt;&#34;&gt;
+
+
+  &lt;img data-src=&#34;/project/math-modelling-competition-np-complete-and-p-time/featured1_hufaa0f14afa97babc03a0ab0a96b16618_61520_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;569&#34; height=&#34;330&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    &lt;strong&gt;Game Map Analogy - to real world :-&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;(P: goods production, W: Amazon/Walmart Warehouse, S: shops or people to be delivered)&lt;/strong&gt;&lt;/em&gt;
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Two Plants P1 &amp;amp; P2&lt;/li&gt;
+&lt;li&gt;The plants produces both products. And production switches between the two products with out any delay&lt;/li&gt;
+&lt;li&gt;Two warehouse W1 &amp;amp; W2 Store both products&lt;/li&gt;
+&lt;li&gt;Amount of storage for each product refer section [2.4]&lt;/li&gt;
+&lt;li&gt;Each vertical and horizontal distance is 1km in the grid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;23-sales&#34;&gt;&lt;strong&gt;2.3. Sales&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The sales of the two products have the following constraints: - Shops are open 6 days a week -
+Number of shops = 20 - P1 &amp;gt;= 1 and P2 &amp;gt;= 1 for any given time of the year. - price of Pr1 = 300
+euros and Pr2 = 100 euros Note : if customer does not find any one of the product then their is a
+penalty function.
+Comments : In order to generate more data we can assume that the monthly sales volume should
+be +/- 10% of the original sales volume for the same time period as given in sales.xls&lt;/p&gt;
+&lt;h4 id=&#34;24-storage-capacity&#34;&gt;&lt;strong&gt;2.4. Storage Capacity&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;We see the storage Capacity of both the items .&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Product&lt;/th&gt;
+&lt;th&gt;Warehouse 1&lt;/th&gt;
+&lt;th&gt;Warehouse 2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Product 1&lt;/td&gt;
+&lt;td&gt;650&lt;/td&gt;
+&lt;td&gt;650&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Product 2&lt;/td&gt;
+&lt;td&gt;650&lt;/td&gt;
+&lt;td&gt;650&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The above is weekly storage estimate based on total sales of all shops. i.e. capacity = argmax
+Sales(Pr1, Pr2) over 1 week. of all.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Warehouse is expected to restock weekly.&lt;/li&gt;
+&lt;li&gt;Shops restock on daily basis&lt;/li&gt;
+&lt;li&gt;The storage capacity of all 20 shops are given.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; : If demand of certain product is more than the capacity of a shop for that product, then we
+need more delivery from warehouse. Capacity cannot be expanded.&lt;/p&gt;
+&lt;h4 id=&#34;25-delivery-tour&#34;&gt;&lt;strong&gt;2.5. Delivery Tour&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The deliveries are done by trucks, therefore the usual path taken is from factory - warehouse - shops.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;volume of heater (Pr 2)&lt;/strong&gt;: 0.4m^3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;volume of a/c (Pr 1)&lt;/strong&gt;: 0.8m^3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;capacity of trucks in volume&lt;/strong&gt;: 20m^3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cost of delivery&lt;/strong&gt; : 1 euro per kilometer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-solution&#34;&gt;&lt;strong&gt;3. Solution&lt;/strong&gt;&lt;/h2&gt;
+&lt;h4 id=&#34;31-production-model&#34;&gt;3.1. Production Model&lt;/h4&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;In this we try to answer the question: &amp;ldquo;How many items must be produced each day by both the plants?&amp;ldquo;&lt;/strong&gt;&lt;/em&gt; &lt;br/&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;From the given problem statement it is seen that there are 20 shops with 2 plants that produces goods with 2 warehouses that stores them. &lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;The main objective of the problem statement is to
+maximize the profit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;One method to view the problem in order to maximize the profit of this market:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;is to &lt;strong&gt;maximize&lt;/strong&gt; the
+sales given the value of the products (300 and 100 euros) for the given market constraints and
+minimize the transportation cost in delivery of the goods to the shops from the warehouses.
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;market constraints&lt;/strong&gt;&lt;/em&gt; : given is to satisfy the demand of the &lt;strong&gt;shops&lt;/strong&gt; with the &lt;strong&gt;capacity&lt;/strong&gt; &lt;strong&gt;constraints&lt;/strong&gt;,
+which is the warehouse capacity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;strong&gt;warehouse capacity&lt;/strong&gt; is &lt;em&gt;greater&lt;/em&gt; than sum of capacities of the
+shops.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;strong&gt;demand&lt;/strong&gt; can be &lt;em&gt;derived&lt;/em&gt; from the &lt;em&gt;sales of each of the products&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;linear-optimization-model-&#34;&gt;[[Linear Optimization Model]] :&lt;/h5&gt;
+&lt;h4 id=&#34;plant-1-br-&#34;&gt;Plant 1 &lt;br /&gt;&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;Max 300 x[1] + 100 x[2] 
+subject to, 
+  x[1] + x[2] ≤ 67600 (capacity)
+  x[1] + x[2] ≥ 34305 (demand)
+  x[i] ≥ 0 ∀ i ∈ {1,2}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;plant-2-br-&#34;&gt;Plant 2 &lt;br /&gt;&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;Max 300 x[3] + 100 x[4] 
+subject to, 
+  x[3] + x[4] ≤ 67600 (capacity)
+  x[3] + x[4] ≥ 34305 (demand)
+  x[i] ≥ 0 ∀ i ∈ {3,4}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;x[i] represents amount of goods produced per year (a
+better formulation is needed will be done once I start working - again on this project)&lt;br /&gt;
+&lt;strong&gt;NOTE&lt;/strong&gt;: such as products produced per week and further deduce it to per day.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The above two models represent where the plants satisfy the demands of shops closer to them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We
+divide the market into two where the plant 1 satisfies demand of shops 1 -10 and plant to satisfies
+demand of shops 11 - 20.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The above two models represent where the plants satisfy the demands of shops closer to them. We divide the market into two where the plant 1 satisfies demand of shops 1 -10 and plant to satisfies demand of shops 11 - 20.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;312-dantzig-wolfe-decomposition-method&#34;&gt;3.1.2. Dantzig Wolfe Decomposition method&lt;/h4&gt;
+&lt;p&gt;Well from the above two linear program it is evident that we can formulate the following problem as &lt;strong&gt;Dantzig Wolfe Decomposition method&lt;/strong&gt;. This is also similar to [1] where the two plants are trying to satisfy the demands of the market &lt;em&gt;(coupling constraint)&lt;/em&gt; and each plant has its own demands &lt;em&gt;(subproblem)&lt;/em&gt; to be solved.&lt;/p&gt;
+&lt;h4 id=&#34;313-further-optimization-integer-or-linear-relaxtion&#34;&gt;3.1.3. Further Optimization: Integer or Linear Relaxtion&lt;/h4&gt;
+&lt;p&gt;Well both the problems need to be formulated as &lt;em&gt;integer program or LP relaxation problem&lt;/em&gt; and then use Gomory cut algorithm to reduce it to integer solution. Note : we can also use branch and bound technique to get an integer solution.&lt;/p&gt;
+&lt;h4 id=&#34;314-slack--surplus-variable--stored-good-in-warehouse&#34;&gt;3.1.4. Slack &amp;amp; surplus Variable = Stored good in warehouse&lt;/h4&gt;
+&lt;p&gt;Introducing a surplus variable into the demand constraint and converting it to equality &lt;strong&gt;(standard LP form)&lt;/strong&gt; will give us the amount of goods that needs be &lt;strong&gt;stored&lt;/strong&gt; in the &lt;strong&gt;warehouse&lt;/strong&gt;. &lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; for Plant 2 is similar as Plant 1 as shown below&lt;/p&gt;
+&lt;h4 id=&#34;plant-1-br--1&#34;&gt;Plant 1 &lt;br /&gt;&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;Max 300 x[1] + 100 x[2] 
+subject to, 
+  x[1] + x[2] + s[1] = 67600 (capacity)
+  x[1] + x[2] - s[2] = 34305 (demand)
+  x[i] ≥ 0 ∀ i ∈ {1,2} where s[1] = slack, s[2] = surplus
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;32-transportation&#34;&gt;3.2. Transportation&lt;/h4&gt;
+&lt;p&gt;This problem has various approach to solve this problem. One such approach is to convert the problem into a variant of network flow problem.&lt;/p&gt;
+&lt;h4 id=&#34;321-graph-theory-formulation&#34;&gt;3.2.1 Graph theory formulation:&lt;/h4&gt;
+&lt;p&gt;We can formulate is as a &lt;em&gt;bipartite graph&lt;/em&gt; such that, &lt;br&gt; &lt;strong&gt;V = S U W&lt;/strong&gt;, &lt;em&gt;where S = {s1_v, &amp;hellip;. s20_v}&lt;/em&gt; and we replicated the same at W = {s1_w,&amp;hellip;..s20_w} we now connect the edges from s1_v to all the other vertices in partite set W except that we do not connect s1_v to s1_w since s1_v and s1_w are the same shop. Therefore d(s1_v) = 19, infact for each of the vertices in V and W.&lt;/p&gt;
+&lt;p&gt;Futher we use &lt;em&gt;&lt;strong&gt;backward substitution&lt;/strong&gt;&lt;/em&gt; method to connect all the vertices in V to warehouses w1 and w2. Similarly we to the following for the partite set W. (Note the edges in this graph is assumed to have a cost which is the shortest distance between any two vertices)&lt;/p&gt;
+&lt;p&gt;We know that each of these vertices have a demand to be satisfied, when the demand for the vertices are met we say that the vertex is saturated. The conditions for &lt;strong&gt;Halls matching&lt;/strong&gt; and &lt;strong&gt;Konig Egervary&lt;/strong&gt; &lt;em&gt;perfect matching theorem&lt;/em&gt; is met in such a graph.
+&lt;em&gt;&lt;strong&gt;(Note : the above also seems more of assignment problem if # of trucks  = 20)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We can use a variant of network flow and  matching algorithm algorithm to solve the problem. We need to saturate the vertices which is basically the demand and also we define unit flow to be 20 m^3 in volume which is the capacity of each truck. We can determine to minimize the flow so that all of the vertices are saturated.&lt;/p&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion:&lt;/h3&gt;
+&lt;p&gt;The above problem can be eaisly formulated as a combination of NP -hard and NP - complete problems i.e; variant of TSP, Bin Packing/ multi knapsack problem. Here I deduce this to a polynomial time problem.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;NOTE: Necessary Improvements&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;the model needs to be further improved as mentioned &lt;strong&gt;[[ Linear optimization model]]  - [3.1]&lt;/strong&gt; this will be done as I start working on this project again sooner&amp;hellip;&lt;/li&gt;
+&lt;li&gt;transportation model needs to be formulated into LP &lt;strong&gt;[3.2.1]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;also create .md slides&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Tools: I tried to work on Julia Optimization package and Julia light graphs. (this requires more time need to look into JULIA will be working on formulating better) &lt;br /&gt;
+&lt;strong&gt;some basic code I execute&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;mlp = Model(solver=ClpSolver())
+@variable(mlp, x[1:2] &amp;gt;= 0)
+@constraint(mlp, x[1] + x[2] &amp;gt;= 34305)
+@constraint(mlp, x[1] + x[2] &amp;lt;= 67600)
+@setObjective(mlp, Max, 300*x[1] +100*x[2])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;getvalue(x[1])
+67600.0
+getvalue(x[2])
+0.0
+getObjectiveValue(mlp)
+2.028e7
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;references&#34;&gt;REFERENCES:&lt;/h4&gt;
+&lt;p&gt;[1] &lt;em&gt;Introduction to Linear Optimization, by Dimitris Bertsimas and John Tsitsiklis. Athena Scientic, 1997, 608 pp ISBN 1-886529-19-1&lt;/em&gt; &lt;br&gt;
+[2] &lt;em&gt;Click on pdf for official problem statement by FFJM GAME&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

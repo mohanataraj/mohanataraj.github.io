@@ -1,0 +1,1451 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.0 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Mohan Nataraj">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="&lt;strong&gt;French Federation of Mathematical Games&lt;/strong&gt; (2018):&lt;strong&gt; _problem statement given on real-world problems that can be modelled as  Non-Polynomial time and Polynomial time algorithms_.&lt;/strong&gt;">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/project/math-modelling-competition-np-complete-and-p-time/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/project/math-modelling-competition-np-complete-and-p-time/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Mohan Nataraj">
+  <meta property="og:url" content="/project/math-modelling-competition-np-complete-and-p-time/">
+  <meta property="og:title" content="Math Modelling Competition : NP-Complete and P Time | Mohan Nataraj">
+  <meta property="og:description" content="&lt;strong&gt;French Federation of Mathematical Games&lt;/strong&gt; (2018):&lt;strong&gt; _problem statement given on real-world problems that can be modelled as  Non-Polynomial time and Polynomial time algorithms_.&lt;/strong&gt;"><meta property="og:image" content="/project/math-modelling-competition-np-complete-and-p-time/featured.jpg">
+  <meta property="twitter:image" content="/project/math-modelling-competition-np-complete-and-p-time/featured.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-12-14T01:49:15&#43;05:30">
+    
+    <meta property="article:modified_time" content="2020-12-14T01:49:15&#43;05:30">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/project/math-modelling-competition-np-complete-and-p-time/"
+  },
+  "headline": "Math Modelling Competition : NP-Complete and P Time",
+  
+  "image": [
+    "/project/math-modelling-competition-np-complete-and-p-time/featured.jpg"
+  ],
+  
+  "datePublished": "2020-12-14T01:49:15+05:30",
+  "dateModified": "2020-12-14T01:49:15+05:30",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Mohan Nataraj"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mohan Nataraj",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "\u003cstrong\u003eFrench Federation of Mathematical Games\u003c/strong\u003e (2018):\u003cstrong\u003e _problem statement given on real-world problems that can be modelled as  Non-Polynomial time and Polynomial time algorithms_.\u003c/strong\u003e"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Math Modelling Competition : NP-Complete and P Time | Mohan Nataraj</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+    <script>window.wcDarkLightEnabled = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Mohan Nataraj</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Mohan Nataraj</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Math Modelling Competition : NP-Complete and P Time</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 14, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.ffjm.org/upload/fichiers/ConcoursSCM/SCM_FFJM_Competitive_Game_2017_2018.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 619px; max-height: 661px;">
+  <div style="position: relative">
+    <img src="/project/math-modelling-competition-np-complete-and-p-time/featured.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">French Federation of Mathematical Games</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="1-problem-statement"><strong>1. Problem Statement</strong></h2>
+<p>In this project we build <em>mathematical model or models</em> to <strong>optimize (maximize) the expected profit</strong>
+for the next year by optimizing the delivery and stock inventory of the products between the factory,
+warehouse and shops, given logistics of sales for the year 2015. We further formalize the model by
+answering the questions in section [3]<br/> <br/></p>
+<h2 id="2-overview-br"><strong>2. Overview</strong> <br/></h2>
+<p>In this section we give the important points required in understanding and solving (formalizing) the
+problem.</p>
+<h4 id="21-the-product"><strong>2.1. The Product</strong></h4>
+<p>In this industry we have two types of products are sold. - Product 1 : Air conditioner = Pr1 - Product
+2 : Heater = Pr 2 Comments: - Sales do not occur the same time. (i.e. the sales of P1 and P2 are
+seasonal - P2 can be assumed to be sold in Winter and P1 summer). - Amount of work and sales is
+constant throughout the year</p>
+<h4 id="22-location-of-resources"><strong>2.2. Location of Resources</strong></h4>
+<p><strong>Resources:</strong></p>
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-game-map-analogy---to-real-world---_p-goods-production-w-amazonwalmart-warehouse-s-shops-or-people-to-be-delivered_">
+
+
+  <a data-fancybox="" href="/project/math-modelling-competition-np-complete-and-p-time/featured1_hufaa0f14afa97babc03a0ab0a96b16618_61520_2000x2000_fit_q90_lanczos.jpg" data-caption="&lt;strong&gt;Game Map Analogy - to real world :-&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;(P: goods production, W: Amazon/Walmart Warehouse, S: shops or people to be delivered)&lt;/strong&gt;&lt;/em&gt;">
+
+
+  <img data-src="/project/math-modelling-competition-np-complete-and-p-time/featured1_hufaa0f14afa97babc03a0ab0a96b16618_61520_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="569" height="330">
+</a>
+
+
+  
+  
+  <figcaption>
+    <strong>Game Map Analogy - to real world :-</strong> <em><strong>(P: goods production, W: Amazon/Walmart Warehouse, S: shops or people to be delivered)</strong></em>
+  </figcaption>
+
+
+</figure>
+
+<ul>
+<li>Two Plants P1 &amp; P2</li>
+<li>The plants produces both products. And production switches between the two products with out any delay</li>
+<li>Two warehouse W1 &amp; W2 Store both products</li>
+<li>Amount of storage for each product refer section [2.4]</li>
+<li>Each vertical and horizontal distance is 1km in the grid</li>
+</ul>
+<h4 id="23-sales"><strong>2.3. Sales</strong></h4>
+<p>The sales of the two products have the following constraints: - Shops are open 6 days a week -
+Number of shops = 20 - P1 &gt;= 1 and P2 &gt;= 1 for any given time of the year. - price of Pr1 = 300
+euros and Pr2 = 100 euros Note : if customer does not find any one of the product then their is a
+penalty function.
+Comments : In order to generate more data we can assume that the monthly sales volume should
+be +/- 10% of the original sales volume for the same time period as given in sales.xls</p>
+<h4 id="24-storage-capacity"><strong>2.4. Storage Capacity</strong></h4>
+<p>We see the storage Capacity of both the items .</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Warehouse 1</th>
+<th>Warehouse 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product 1</td>
+<td>650</td>
+<td>650</td>
+</tr>
+<tr>
+<td>Product 2</td>
+<td>650</td>
+<td>650</td>
+</tr>
+</tbody>
+</table>
+<p>The above is weekly storage estimate based on total sales of all shops. i.e. capacity = argmax
+Sales(Pr1, Pr2) over 1 week. of all.</p>
+<ul>
+<li>Warehouse is expected to restock weekly.</li>
+<li>Shops restock on daily basis</li>
+<li>The storage capacity of all 20 shops are given.</li>
+</ul>
+<p><strong>Note</strong> : If demand of certain product is more than the capacity of a shop for that product, then we
+need more delivery from warehouse. Capacity cannot be expanded.</p>
+<h4 id="25-delivery-tour"><strong>2.5. Delivery Tour</strong></h4>
+<p>The deliveries are done by trucks, therefore the usual path taken is from factory - warehouse - shops.</p>
+<ul>
+<li><strong>volume of heater (Pr 2)</strong>: 0.4m^3</li>
+<li><strong>volume of a/c (Pr 1)</strong>: 0.8m^3</li>
+<li><strong>capacity of trucks in volume</strong>: 20m^3</li>
+<li><strong>cost of delivery</strong> : 1 euro per kilometer</li>
+</ul>
+<h2 id="3-solution"><strong>3. Solution</strong></h2>
+<h4 id="31-production-model">3.1. Production Model</h4>
+<hr>
+<p><em><strong>In this we try to answer the question: &ldquo;How many items must be produced each day by both the plants?&ldquo;</strong></em> <br/></p>
+<hr>
+<p>From the given problem statement it is seen that there are 20 shops with 2 plants that produces goods with 2 warehouses that stores them. <br/></p>
+<p>The main objective of the problem statement is to
+maximize the profit.</p>
+<ul>
+<li>
+<p><em>One method to view the problem in order to maximize the profit of this market:</em></p>
+<ul>
+<li>is to <strong>maximize</strong> the
+sales given the value of the products (300 and 100 euros) for the given market constraints and
+minimize the transportation cost in delivery of the goods to the shops from the warehouses.
+<br></li>
+</ul>
+</li>
+<li>
+<p><em><strong>market constraints</strong></em> : given is to satisfy the demand of the <strong>shops</strong> with the <strong>capacity</strong> <strong>constraints</strong>,
+which is the warehouse capacity.</p>
+</li>
+<li>
+<p>The <strong>warehouse capacity</strong> is <em>greater</em> than sum of capacities of the
+shops.</p>
+</li>
+<li>
+<p>The <strong>demand</strong> can be <em>derived</em> from the <em>sales of each of the products</em>.</p>
+</li>
+</ul>
+<h5 id="linear-optimization-model-">[[Linear Optimization Model]] :</h5>
+<h4 id="plant-1-br-">Plant 1 <br /></h4>
+<pre><code>Max 300 x[1] + 100 x[2] 
+subject to, 
+  x[1] + x[2] ≤ 67600 (capacity)
+  x[1] + x[2] ≥ 34305 (demand)
+  x[i] ≥ 0 ∀ i ∈ {1,2}
+</code></pre>
+<h4 id="plant-2-br-">Plant 2 <br /></h4>
+<pre><code>Max 300 x[3] + 100 x[4] 
+subject to, 
+  x[3] + x[4] ≤ 67600 (capacity)
+  x[3] + x[4] ≥ 34305 (demand)
+  x[i] ≥ 0 ∀ i ∈ {3,4}
+</code></pre>
+<p>x[i] represents amount of goods produced per year (a
+better formulation is needed will be done once I start working - again on this project)<br />
+<strong>NOTE</strong>: such as products produced per week and further deduce it to per day.</p>
+<ul>
+<li>
+<p>The above two models represent where the plants satisfy the demands of shops closer to them.</p>
+</li>
+<li>
+<p>We
+divide the market into two where the plant 1 satisfies demand of shops 1 -10 and plant to satisfies
+demand of shops 11 - 20.</p>
+</li>
+<li>
+<p>The above two models represent where the plants satisfy the demands of shops closer to them. We divide the market into two where the plant 1 satisfies demand of shops 1 -10 and plant to satisfies demand of shops 11 - 20.</p>
+</li>
+</ul>
+<h4 id="312-dantzig-wolfe-decomposition-method">3.1.2. Dantzig Wolfe Decomposition method</h4>
+<p>Well from the above two linear program it is evident that we can formulate the following problem as <strong>Dantzig Wolfe Decomposition method</strong>. This is also similar to [1] where the two plants are trying to satisfy the demands of the market <em>(coupling constraint)</em> and each plant has its own demands <em>(subproblem)</em> to be solved.</p>
+<h4 id="313-further-optimization-integer-or-linear-relaxtion">3.1.3. Further Optimization: Integer or Linear Relaxtion</h4>
+<p>Well both the problems need to be formulated as <em>integer program or LP relaxation problem</em> and then use Gomory cut algorithm to reduce it to integer solution. Note : we can also use branch and bound technique to get an integer solution.</p>
+<h4 id="314-slack--surplus-variable--stored-good-in-warehouse">3.1.4. Slack &amp; surplus Variable = Stored good in warehouse</h4>
+<p>Introducing a surplus variable into the demand constraint and converting it to equality <strong>(standard LP form)</strong> will give us the amount of goods that needs be <strong>stored</strong> in the <strong>warehouse</strong>. <br/></p>
+<p><strong>Example:</strong> for Plant 2 is similar as Plant 1 as shown below</p>
+<h4 id="plant-1-br--1">Plant 1 <br /></h4>
+<pre><code>Max 300 x[1] + 100 x[2] 
+subject to, 
+  x[1] + x[2] + s[1] = 67600 (capacity)
+  x[1] + x[2] - s[2] = 34305 (demand)
+  x[i] ≥ 0 ∀ i ∈ {1,2} where s[1] = slack, s[2] = surplus
+</code></pre>
+<h4 id="32-transportation">3.2. Transportation</h4>
+<p>This problem has various approach to solve this problem. One such approach is to convert the problem into a variant of network flow problem.</p>
+<h4 id="321-graph-theory-formulation">3.2.1 Graph theory formulation:</h4>
+<p>We can formulate is as a <em>bipartite graph</em> such that, <br> <strong>V = S U W</strong>, <em>where S = {s1_v, &hellip;. s20_v}</em> and we replicated the same at W = {s1_w,&hellip;..s20_w} we now connect the edges from s1_v to all the other vertices in partite set W except that we do not connect s1_v to s1_w since s1_v and s1_w are the same shop. Therefore d(s1_v) = 19, infact for each of the vertices in V and W.</p>
+<p>Futher we use <em><strong>backward substitution</strong></em> method to connect all the vertices in V to warehouses w1 and w2. Similarly we to the following for the partite set W. (Note the edges in this graph is assumed to have a cost which is the shortest distance between any two vertices)</p>
+<p>We know that each of these vertices have a demand to be satisfied, when the demand for the vertices are met we say that the vertex is saturated. The conditions for <strong>Halls matching</strong> and <strong>Konig Egervary</strong> <em>perfect matching theorem</em> is met in such a graph.
+<em><strong>(Note : the above also seems more of assignment problem if # of trucks  = 20)</strong></em></p>
+<p>We can use a variant of network flow and  matching algorithm algorithm to solve the problem. We need to saturate the vertices which is basically the demand and also we define unit flow to be 20 m^3 in volume which is the capacity of each truck. We can determine to minimize the flow so that all of the vertices are saturated.</p>
+<h3 id="conclusion">Conclusion:</h3>
+<p>The above problem can be eaisly formulated as a combination of NP -hard and NP - complete problems i.e; variant of TSP, Bin Packing/ multi knapsack problem. Here I deduce this to a polynomial time problem.</p>
+<hr>
+<p><strong>NOTE: Necessary Improvements</strong></p>
+<hr>
+<ul>
+<li>the model needs to be further improved as mentioned <strong>[[ Linear optimization model]]  - [3.1]</strong> this will be done as I start working on this project again sooner&hellip;</li>
+<li>transportation model needs to be formulated into LP <strong>[3.2.1]</strong></li>
+<li>also create .md slides&hellip;</li>
+</ul>
+<hr>
+<p>Tools: I tried to work on Julia Optimization package and Julia light graphs. (this requires more time need to look into JULIA will be working on formulating better) <br />
+<strong>some basic code I execute</strong></p>
+<pre><code class="language-python">mlp = Model(solver=ClpSolver())
+@variable(mlp, x[1:2] &gt;= 0)
+@constraint(mlp, x[1] + x[2] &gt;= 34305)
+@constraint(mlp, x[1] + x[2] &lt;= 67600)
+@setObjective(mlp, Max, 300*x[1] +100*x[2])
+</code></pre>
+<pre><code class="language-python">getvalue(x[1])
+67600.0
+getvalue(x[2])
+0.0
+getObjectiveValue(mlp)
+2.028e7
+</code></pre>
+<h4 id="references">REFERENCES:</h4>
+<p>[1] <em>Introduction to Linear Optimization, by Dimitris Bertsimas and John Tsitsiklis. Athena Scientic, 1997, 608 pp ISBN 1-886529-19-1</em> <br>
+[2] <em>Click on pdf for official problem statement by FFJM GAME</em></p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/project/math-modelling-competition-np-complete-and-p-time/&amp;text=Math%20Modelling%20Competition%20:%20NP-Complete%20and%20P%20Time" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/project/math-modelling-competition-np-complete-and-p-time/&amp;t=Math%20Modelling%20Competition%20:%20NP-Complete%20and%20P%20Time" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Math%20Modelling%20Competition%20:%20NP-Complete%20and%20P%20Time&amp;body=/project/math-modelling-competition-np-complete-and-p-time/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/project/math-modelling-competition-np-complete-and-p-time/&amp;title=Math%20Modelling%20Competition%20:%20NP-Complete%20and%20P%20Time" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Math%20Modelling%20Competition%20:%20NP-Complete%20and%20P%20Time%20/project/math-modelling-competition-np-complete-and-p-time/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/project/math-modelling-competition-np-complete-and-p-time/&amp;title=Math%20Modelling%20Competition%20:%20NP-Complete%20and%20P%20Time" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/"><img class="avatar mr-3 avatar-circle" src="/author/mohan-nataraj/avatar_hu373314058227dc4e41dd686320603e7e_62751_270x270_fill_q90_lanczos_center.jpg" alt="Mohan Nataraj"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">Mohan Nataraj</a></h5>
+      <h6 class="card-subtitle">Pure Mathematician &amp; Computer Scientist</h6>
+      <p class="card-text">My research interests include distribution in prime numbers, optimization, modelling and any programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/MohanNataraj2" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/mohanataraj" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.d9d80f811e95b4b4f6df1eaaf297b05f.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
