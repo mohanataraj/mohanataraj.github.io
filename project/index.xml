@@ -5,12 +5,23 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Dec 2020 01:49:15 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Dec 2020 22:20:33 +0530</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
+    
+    <item>
+      <title>CANCER: Mathematical, Computational &amp; Game Theoritical concepts for Drug Development</title>
+      <link>/project/cancer-research-and-drug-development/</link>
+      <pubDate>Mon, 14 Dec 2020 22:20:33 +0530</pubDate>
+      <guid>/project/cancer-research-and-drug-development/</guid>
+      <description>&lt;h1 id=&#34;research-proposal----emself-em&#34;&gt;RESEARCH PROPOSAL -  &lt;em&gt;self &lt;/em&gt;&lt;/h1&gt;
+&lt;h3 id=&#34;1-introduction--&#34;&gt;1. Introduction -&lt;/h3&gt;
+&lt;p&gt;&amp;hellip;to be done&amp;hellip; soon .. Aeonic research project&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Math Modelling Competition : NP-Complete and P Time</title>
