@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©`2021-2022`</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© **Mohan Nataraj** `2021-2022`</copyright>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
@@ -31,6 +31,8 @@ Philosophy through experience has always been my innate belief. While it is aber
 &lt;li&gt;&lt;em&gt;&lt;code&gt;Member of American Mathematical Society (Carleton University)[2019-2020]&lt;/code&gt;&lt;/em&gt; &lt;br/&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;&lt;code&gt; Member of IEEE (Illinois Tech) [2012-present]&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;!-- add this so that the pages are not indexed by google search engine / remove if you want this to be indexed --&gt;
+&lt;meta name=&#34;robots&#34; content=&#34;noindex&#34;&gt;
 </description>
     </item>
     
