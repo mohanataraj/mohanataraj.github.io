@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohan Nataraj</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© **Mohan Nataraj** `2021-2022`</copyright><lastBuildDate>Mon, 14 Dec 2020 22:20:33 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© **Mohan Nataraj** `2021-2022`</copyright><lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Mohan Nataraj</title>
@@ -74,6 +74,282 @@ eg: var firstName = new String(&#34;John&#34;);&lt;br/&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Audience &amp; Rationale</title>
+      <link>/design-documentation/ideation/page-two/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/ideation/page-two/</guid>
+      <description>&lt;p&gt;We initially list the following targeted users that the application will be useful for or used by mostly. We use this data to
+better design the application and the business model.&lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Requires more user research from various to expand or strengthen the list.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;1-political&#34;&gt;1. POLITICAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who are a part of fit movement
+&lt;ul&gt;
+&lt;li&gt;health concious&lt;/li&gt;
+&lt;li&gt;eco-friendly&lt;/li&gt;
+&lt;li&gt;pro-active in their lifestyle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-functional&#34;&gt;2. FUNCTIONAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to change their habits for a better well-being. (food, fitness and mind/mental)
+&lt;ul&gt;
+&lt;li&gt;uninformed/new to the lifestyle&lt;/li&gt;
+&lt;li&gt;want to track their fitness&lt;/li&gt;
+&lt;li&gt;want entertainment/ activity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-professional&#34;&gt;3. PROFESSIONAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to use it as a professional/business tool
+&lt;ul&gt;
+&lt;li&gt;manage clients (&lt;em&gt;nutrionalists/trainer for food and fitness&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;mind/mental wellness worker (&lt;em&gt;yoga teachers etc&amp;hellip;&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;event organizers - users and brands / venues etc&amp;hellip; (&lt;em&gt;gyms/hotels/etc&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;brand promotions via fitness professionals (&lt;em&gt;nike/adidas/local apparels&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;homemakers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4-social&#34;&gt;4. SOCIAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to be inventive
+&lt;ul&gt;
+&lt;li&gt;companies/corporates being adventerous with employees&lt;/li&gt;
+&lt;li&gt;social engagement / events&lt;/li&gt;
+&lt;li&gt;try different tech - adventerous people&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;5-financial&#34;&gt;5. FINANCIAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to save money
+&lt;ul&gt;
+&lt;li&gt;thrifty&lt;/li&gt;
+&lt;li&gt;on a budget&lt;/li&gt;
+&lt;li&gt;just because it should be free.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The above mentioned are initial target audience and may increase or shorten the list as we grow or pivot !
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1. Ideation &amp; User Research</title>
+      <link>/design-documentation/ideation/page-one/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/ideation/page-one/</guid>
+      <description>&lt;!-- add this so that the pages are not indexed by google search engine / remove if you want this to be indexed --&gt;
+&lt;meta name=&#34;robots&#34; content=&#34;noindex&#34;&gt;
+&lt;p&gt;&lt;em&gt;According to the methods of innovation from wiki: Ideation: The Birth and Death of Ideas (Graham and Bachmann, 2004) we are working
+on the multiple such methods they are revolutionay idea(in terms of tech) problem solution, derivative idea and symbiotic idea.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1-ideas--goals-&#34;&gt;1. &lt;strong&gt;Ideas&lt;/strong&gt; &lt;strong&gt;&amp;amp;&lt;/strong&gt; &lt;strong&gt;Goals&lt;/strong&gt; :&lt;/h3&gt;
+&lt;p&gt;Three most important aspects  are ideation, articulation and development.&lt;/p&gt;
+&lt;h4 id=&#34;11-ideation&#34;&gt;&lt;strong&gt;1.1&lt;/strong&gt; &lt;strong&gt;Ideation:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;(&lt;em&gt;focus, articulation, clarity &amp;amp; user feedback&lt;/em&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Idea&lt;/strong&gt; : &lt;br/&gt;
+&lt;strong&gt;Problem statement:&lt;/strong&gt; a simple service that users desire&amp;hellip; ??
+&lt;ul&gt;
+&lt;li&gt;Problem One: to keep track of calories intake and calories burnt during exercise/day.&lt;/li&gt;
+&lt;li&gt;Problem Two: to manage their food intake such as food journal and exercise journal.(&lt;em&gt;replace the word journal with something else&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Problem Three: to find healthy food options.&lt;/li&gt;
+&lt;li&gt;Problem Four: to find trainer / training &amp;amp; food plan for better well being.&lt;/li&gt;
+&lt;li&gt;Problem Five: emotional / mind wellness.&lt;/li&gt;
+&lt;li&gt;Problem Six: Social wellness - events/community exploration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Expand and explore : like all ideas we have alot of options, we then look at those ideas and&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Refine and edit : here we look at those that are necessary or relevant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The above two points repeated over and over again leads to a process.
+**: means tentaive idea and may pivot.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;q-what-makes-a-great-user-experience-for-you-&#34;&gt;Q) What makes a great user experience for you ?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;easy to use. (such as signup, signin and sharing results)
+&lt;ul&gt;
+&lt;li&gt;very little time needed to learn or very intuitive app design required.&lt;/li&gt;
+&lt;li&gt;clear icons&lt;/li&gt;
+&lt;li&gt;interface design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;minimalistic approach, such as keeping the navigation to just 4 pages etc&amp;hellip;
+&lt;ul&gt;
+&lt;li&gt;smooth navigation or no unnecessary step required.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;keep track of everything necessary for smoother transition from initial start to making it an habit [very important]&lt;/li&gt;
+&lt;li&gt;clean design and consistent design (colors)&lt;/li&gt;
+&lt;li&gt;classified or grouped acccordingly.&lt;/li&gt;
+&lt;li&gt;not too much notification (leads to user disengagment)&lt;/li&gt;
+&lt;li&gt;more of image based app
+&lt;ul&gt;
+&lt;li&gt;landing page is news feeds&lt;/li&gt;
+&lt;li&gt;less text content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;app should be fun to use.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;MYFITNESS PAL : ability to set goals, target and track progress in weight or percentage.&lt;/li&gt;
+&lt;li&gt;comphrensive : input food, exercis, drinks etc&lt;/li&gt;
+&lt;li&gt;features workout and nothing screams at you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;h2 id=&#34;note--three-major-points-for-great-ux-&#34;&gt;NOTE:  Three major points for great UX :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;minimalistic approach&lt;/strong&gt;  - to get to the purpose/goal almost instantly. (usually within 3/4 - clicks)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;easy to use&lt;/strong&gt; - such as navigation, icons, interface design (classified food &amp;amp; exercise correctly)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fun to use&lt;/strong&gt; - more image/video based, less text, enjoyable contents (quality of content rather than quantity? depends on what drives revenue.)&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;2-user-research&#34;&gt;2. User Research&lt;/h1&gt;
+&lt;h2 id=&#34;research--development&#34;&gt;Research &amp;amp; Development&lt;/h2&gt;
+&lt;h4 id=&#34;q-what-does-the-app-do&#34;&gt;&lt;strong&gt;Q) WHAT DOES THE APP DO?&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;This app has three major categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Food&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;keep track of food/calorie intake to reach your goal&lt;/li&gt;
+&lt;li&gt;store food recipes of users.&lt;/li&gt;
+&lt;li&gt;share user recipes with your community or squad.&lt;/li&gt;
+&lt;li&gt;suggest better recipes, fruits, veggies&amp;hellip; by keeping track of my taste via recipe or exercise goal or metal wellness.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;discover chefs - [GORBOX]&lt;/em&gt; **&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fitness&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;keeps track of calories burnt/expenditured.&lt;/li&gt;
+&lt;li&gt;maintain exercise journal (&lt;em&gt;call this something else&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;share your progress/exercise with squad/community/social media&lt;/li&gt;
+&lt;li&gt;find trainers/nutrionist are also users.
+&lt;ul&gt;
+&lt;li&gt;personal training&lt;/li&gt;
+&lt;li&gt;diet plan/maintaince (&lt;em&gt;basically nutrionist/trainer can take care of their diet&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;exercise plan (&lt;em&gt;allow trainers/pro to create a plan for their goals&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Emotional/Inner Wellness&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;suggest events or activities for the user based on their fitness goal and metal well being&lt;/li&gt;
+&lt;li&gt;listening to podcast&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;live yoga, meditation&lt;/em&gt; **&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;q-how-does-it-work---&#34;&gt;&lt;strong&gt;Q) HOW DOES IT WORK?&lt;/strong&gt;  -&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;How does it achieve the goal? Do research into content from competitor and see how we can do it differently&lt;/li&gt;
+&lt;li&gt;Goal : is to help people keep track of their fitness level and shift to healthier eating habits so as they have better quality of life i.e; healthier life. &lt;br/&gt;
+We use following tentative ways :-&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;food&#34;&gt;Food&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;store and share recipes&lt;/li&gt;
+&lt;li&gt;calculate food nutritional value&lt;/li&gt;
+&lt;li&gt;suggest different food based on user taste.
+- suggest food replacement based on caloric values. (more delicious food)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;ul&gt;
+&lt;li&gt;NOTE:  suggestion of food based on different criteria has 3 options they are as follows:
+&lt;ul&gt;
+&lt;li&gt;RECIPE:&lt;/li&gt;
+&lt;li&gt;videos (youtube, IGTV)&lt;/li&gt;
+&lt;li&gt;blog (inhouse, also see other partner)&lt;/li&gt;
+&lt;li&gt;people who sell food via &amp;ldquo;&lt;em&gt;GORBOX&lt;/em&gt;&amp;rdquo; (which should have indemand &amp;amp; subscription homefood)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;fitness-exercise&#34;&gt;FITNESS (Exercise)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;store and share exercises.&lt;/li&gt;
+&lt;li&gt;share daily achievements.&lt;/li&gt;
+&lt;li&gt;calculate energy expenditured.&lt;/li&gt;
+&lt;li&gt;suggest different exercise based on the current energy and target.&lt;/li&gt;
+&lt;li&gt;suggest trainers based on fitness goal(- they also can manage food goals of client)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;emotional-or-social-well-being&#34;&gt;Emotional or Social Well-Being:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;users or group can create &amp;amp; share events.&lt;/li&gt;
+&lt;li&gt;podcasts on emotional well-being.(&lt;em&gt;keep user entertained&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;community or group based engagment in activities.(&lt;em&gt;food or fitness or yoga or infact something fun partner with brands related events&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;fitness-and-food-experts&#34;&gt;FITNESS AND FOOD experts:&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;- - suggest nutrionalist &amp;amp; trainers for food &amp;amp; fitness to achieve their target.
+- - check last point of fitness ** confusion need to check to include in Minimal viable product.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;q-who-benefits-from-it&#34;&gt;&lt;strong&gt;Q) WHO BENEFITS FROM IT?&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The clients,  why are we creating this app ? for fun (&lt;em&gt;need better UI/UX app&lt;/em&gt;), social good (&lt;em&gt;improve people well-being&lt;/em&gt;), money (&lt;em&gt;help single homemakers earn money [GORBOX]&lt;/em&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Users stay fit and track their calories&lt;/li&gt;
+&lt;li&gt;Gym trainers, clients and fitness models&lt;/li&gt;
+&lt;li&gt;Chefs/ Homemakers interested to earn money (&lt;strong&gt;FIT CHEFS [GORBOX]&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Analyze if the last point is needed in MVP - minimal viable product&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;q-why-would-someone-use-this-goals-and-outcomes-what-the-user-should-achieve-of-using-this-application&#34;&gt;Q) &lt;strong&gt;WHY WOULD SOMEONE USE THIS?&lt;/strong&gt; Goals and outcomes what the user should achieve of using this application.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Users who want to track their calories &amp;amp; stay fit.&lt;/li&gt;
+&lt;li&gt;Chefs/homemakers who want to earn money by selling food / recipe book.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;=&amp;gt; My app lets you explore delicious healthy food &amp;amp; helps you keep track of your fitness. &lt;br/&gt;
+[ Gorbox:  &lt;code&gt; Tasty, healthy homecooked food for happy life&lt;/code&gt; ]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;one line explaination of FITCHEF.FIT: &lt;br/&gt; [ &lt;code&gt;My app lets you explore delicious healthy food &amp;amp; helps you track your fitness for better well-being&lt;/code&gt; ]&lt;/li&gt;
+&lt;li&gt;FITCHEF.FIT - punch subline below:-&lt;/li&gt;
+&lt;li&gt;This is sub-line: [ &lt;code&gt;Explore Movement 4ur Body, Food 4ur Soul &amp;amp; Stillness 4ur Mind.&lt;/code&gt;] &lt;br/&gt;
+[&lt;code&gt;and dont forget to Socialize the 4ur for happy life!!&lt;/code&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Note: This entire document will be updated as and when we progress. This is not final !!!
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     

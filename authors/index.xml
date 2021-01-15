@@ -17,7 +17,15 @@
       <link>/author/mohan-nataraj/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/author/mohan-nataraj/</guid>
-      <description>&lt;p&gt;Mohan Nataraj, a pure mathematician, theoretical computer scientist and software developer with &lt;em&gt;&lt;strong&gt;5 years&lt;/strong&gt;&lt;/em&gt; of experience from &lt;strong&gt;&lt;em&gt;silicon valley of India&lt;/em&gt;&lt;/strong&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Bangalore&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Bangalore, India&lt;/em&gt;&lt;/a&gt;. I’m currently working in an early stage startup - designing and developing. I do lead myself with great confidence and believe in the following,
+      <description>&lt;!-- add this so that the pages are not indexed by google search engine / remove if you want this to be indexed --&gt;
+&lt;meta name=&#34;robots&#34; content=&#34;noindex&#34;&gt;
+&lt;!--Below end of Card--&gt;
+  &lt;div class=&#34;card&#34;&gt;
+    &lt;div class=&#34;card-header&#34; &gt; &lt;h1 style=&#34;color:#dc3545&#34;&gt; Biography &lt;/h1&gt; 
+      &lt;h6 class=&#34;card-subtitle mb-2 text-muted&#34;&gt;About Me&lt;/h6&gt;
+    &lt;/div&gt;
+&lt;div class=&#34;card-body&#34;&gt;
+&lt;p&gt;Mohan Nataraj, a pure mathematician, theoretical computer scientist and software developer with more than &lt;strong&gt;&lt;em&gt;5 years&lt;/em&gt;&lt;/strong&gt; of experience from &lt;strong&gt;&lt;em&gt;silicon valley of India&lt;/em&gt;&lt;/strong&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Bangalore&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Bangalore, India&lt;/em&gt;&lt;/a&gt;. I’m currently working in an early stage startup - designing and developing. I do lead myself with great confidence and believe in the following,
 &lt;em&gt; &lt;strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt; &amp;quot;It is by his activities and not by enjoyment that man feels he is alive.
  In idleness we not only feel that life is fleeting, but we also feel lifeless” 
@@ -27,12 +35,121 @@
 Philosophy through experience has always been my innate belief. While it is aberrant for a pure mathematician to say &lt;em&gt;&lt;code&gt;&amp;quot;I believe in GOD&amp;quot;&lt;/code&gt;&lt;/em&gt;  my experiences in life would otherwise prove so.&lt;/p&gt;
 &lt;p&gt;My research interests include distribution in prime numbers, optimization, mathematical modeling, analysis and any programmable matter.&lt;/p&gt;
 &lt;p&gt;Two of my most fervent personal research project; I persevere on are &lt;em&gt;Riemann hypothesis&lt;/em&gt; and &lt;em&gt;computer aided drug development&lt;/em&gt; for &lt;a href=&#34;./project/cancer-research-and-drug-development/&#34;&gt;CANCER&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;&lt;code&gt;Member of American Mathematical Society (Carleton University)[2019-2020]&lt;/code&gt;&lt;/em&gt; &lt;br/&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;code&gt; Member of IEEE (Illinois Tech) [2012-present]&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- add this so that the pages are not indexed by google search engine / remove if you want this to be indexed --&gt;
-&lt;meta name=&#34;robots&#34; content=&#34;noindex&#34;&gt;
+&lt;!-- to list the organizations I was /am associated with --&gt;
+&lt;div class=&#34;card-footer&#34;&gt;
+  &lt;ul class=&#34;list-group list-group-flush&#34;&gt;
+    &lt;li class=&#34;list-group-item&#34;&gt;&lt;em&gt;&lt;span style=&#34;color:#007bff&#34;&gt; Member of American Mathematical Society &lt;/span&gt;-&lt;span style=&#34;color:#dc3545&#34;&gt; Carleton University (2019-2020)&lt;/span&gt;&lt;/em&gt;&lt;/li&gt;
+    &lt;li class=&#34;list-group-item&#34;&gt; &lt;span style=&#34;color:#007bff&#34;&gt;&lt;em&gt; Member of IEEE &lt;/span&gt; - &lt;span style=&#34;color:#dc3545&#34;&gt;Illinois Institute of Technology (2012-2020)&lt;/em&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+  &lt;!--
+* _```Member of American Mathematical Society (Carleton University)[2019-2020]```_ &lt;br/&gt;
+* _``` Member of IEEE (Illinois Tech) [2012-present]```_
+--&gt;
+ &lt;/div&gt; &lt;!--Card Body --&gt;
+  &lt;/div&gt; &lt;!--Card--&gt;
+&lt;/div&gt;
+&lt;div class= &#34;container&#34;&gt;
+&lt;div class=&#34;card&#34;&gt;
+ &lt;div class=&#34;card-header&#34;&gt;
+    &lt;ul class=&#34;nav nav-pills card-header-pills&#34;&gt;
+      &lt;li class=&#34;nav-item&#34;&gt;
+        &lt;a class=&#34;nav-link active&#34; id=&#34;pills-career-tab&#34; data-toggle=&#34;pill&#34; href=&#34;#pills-career-card&#34; role=&#34;tab&#34; aria-controls=&#34;pills-career-card&#34; aria-selected=&#34;true&#34;&gt;Career&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;nav-item&#34;&gt;
+        &lt;a class=&#34;nav-link&#34; id=&#34;pills-hobby-tab&#34; data-toggle=&#34;pill&#34; href=&#34;#pills-hobby-card&#34; role=&#34;tab&#34; aria-controls=&#34;pills-career-card&#34; aria-selected=&#34;true&#34;&gt; Hobby&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;nav-item&#34;&gt;
+        &lt;a class=&#34;nav-link disabled&#34; href=&#34;#&#34;&gt;Disabled&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;&lt;!--Card header--&gt;
+&lt;!--TAB CREATION STARTS HERE --&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;pills-tabContent&#34;&gt; 
+&lt;!--Defining 1st tab-pane --&gt;
+&lt;div class=&#34;tab-pane fade show active&#34; id=&#34;pills-career-card&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;pills-career-tab&#34;&gt; 
+  &lt;div class=&#34;card-body&#34;&gt;
+    &lt;div class=&#34;card-block&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-5&#34;&gt; 
+          &lt;div class=&#34;card-title&#34; &gt; 
+          &lt;h2 style=&#34;color:#dc3545&#34;&gt; Interests &lt;/h2&gt;
+          &lt;/div&gt;
+          &lt;ul class=&#34;ul-interests&#34;&gt;
+            &lt;li&gt;Number Theory&lt;/li&gt; 
+            &lt;li&gt;Graph Theory&lt;/li&gt;
+            &lt;li&gt;Complex Analysis&lt;/li&gt;
+            &lt;li&gt;Mathematical Optimization&lt;/li&gt;
+            &lt;li&gt;Probability &amp;amp; Statistics&lt;/li&gt;
+            &lt;li&gt;Artificial Intelligence&lt;/li&gt;
+            &lt;li&gt;Cancer Drug Development&lt;/li&gt; 
+          &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;!--End of the first block--&gt;
+      &lt;div class=&#34;col-lg-7&#34;&gt;  
+        &lt;div class=&#34;card-title&#34;&gt;
+          &lt;h2 style=&#34;color:#dc3545&#34;&gt; Education &lt;/h2&gt;
+        &lt;/div&gt;
+          &lt;ul class=&#34;ul-edu fa-ul&#34;&gt;
+            &lt;li&gt;
+              &lt;i class=&#34;fa-li fas fa-graduation-cap&#34;&gt;&lt;/i&gt;
+              &lt;div class=&#34;description&#34;&gt;
+                &lt;p class=&#34;course&#34;&gt;Master of Science in Pure Mathematics, 2019&lt;/p&gt;
+                &lt;p class=&#34;institution&#34;&gt;Carleton University - &lt;span style=&#34;color:black&#34;&gt;&lt;em&gt;(Dropped out as my mother was diagonized with metastatic breast cancer and expired on - 21/9/2020)&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;i class=&#34;fa-li fas fa-graduation-cap&#34;&gt;&lt;/i&gt;
+              &lt;div class=&#34;description&#34;&gt;
+                &lt;p class=&#34;course&#34;&gt;Master of Science in Applied Mathematics (unconferred), 2018&lt;/p&gt;
+                &lt;p class=&#34;institution&#34;&gt;Illinois Institute of Technology - Chicago, Illinois&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;i class=&#34;fa-li fas fa-graduation-cap&#34;&gt;&lt;/i&gt;
+              &lt;div class=&#34;description&#34;&gt;
+                &lt;p class=&#34;course&#34;&gt;Master of Science in Computer Science, 2013&lt;/p&gt;
+                &lt;p class=&#34;institution&#34;&gt;Illinois Institute of Technology - Chicago, Illinois&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;i class=&#34;fa-li fas fa-graduation-cap&#34;&gt;&lt;/i&gt;
+              &lt;div class=&#34;description&#34;&gt;
+                &lt;p class=&#34;course&#34;&gt;Bachelors of Engineering in Computer Science, 2011&lt;/p&gt;
+                &lt;p class=&#34;institution&#34;&gt;Visvesvaraya Technological University - Bangalore, India&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+      &lt;/div&gt; &lt;!--Div of Column 2--&gt;
+    &lt;/div&gt;&lt;!--Row--&gt;
+  &lt;/div&gt;&lt;!--This is for Block--&gt;
+  &lt;/div&gt;&lt;!--Card-Body--&gt;
+&lt;/div&gt;&lt;!--End First Tab Pane: --&gt;
+&lt;!-- Start of 2nd Tab Pane: this has three or more cards that describe my HOBBY!! --&gt;
+&lt;div class=&#34;tab-pane fade show false&#34; id=&#34;pills-hobby-card&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;pills-hobby-tab&#34;&gt;
+&lt;div class=&#34;card-group&#34;&gt;
+&lt;div class=&#34;card&#34;&gt;
+    &lt;img class=&#34;card-img&#34; src=&#34;/media/nvidia.jpg&#34; alt=&#34;Card image cap&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      &lt;h3 class=&#34;card-title&#34;&gt;Nvidia Jetson Nano - CUDA &lt;/h3&gt;
+      &lt;h6 class=&#34;card-subtitle text-muted&#34;&gt;A.I. on GPU:&lt;small style=&#34;color:#6610f2&#34;&gt;&lt;strong&gt;&lt;em&gt; running single A.I. neural network on CPU is too mainstream&lt;/em&gt;&lt;/strong&gt;&lt;/small&gt;&lt;/h6&gt; &lt;br/&gt;
+      &lt;p&gt;&lt;span style=&#34;sans-serif&#34;&gt;Working closer to metal - SOC, parallel and distributed processing and A.I. as always been my interest especially as a &lt;strong&gt; &lt;span style=&#34;color:#6610f2;&#34;&gt;&lt;em&gt; GAMER &lt;/em&gt;&lt;/span&gt;  - &lt;span style=&#34;color:#28a745;&#34;&gt;Nvidia GPU&#39;s &lt;/span&gt;&lt;/strong&gt; are innately exciting.&lt;/span&gt;&lt;/p&gt;
+      &lt;h6 class=&#34;text-muted&#34;&gt;&lt;small&gt; &lt;strong&gt; Read to know more on how this small beast will be helpful in my projects.&lt;/strong&gt;&lt;/small&gt;&lt;/h6&gt;
+      &lt;!--To know more button link to blog post --&gt;
+      &lt;a class=&#34;btn btn-outline-danger btn-block&#34; href=&#34;#&#34; role=&#34;button&#34;&gt;Read More&lt;/a&gt;
+    &lt;/div&gt; &lt;!--End of Card Body--&gt;
+&lt;/div&gt; &lt;!--End of First Card in Hobby Panel--&gt;
+&lt;div class=&#34;card&#34; style=&#34;width: 18rem;&#34;&gt;
+  &lt;img class=&#34;card-img-left&#34; src=&#34;/media/nvidia.jpg&#34; alt=&#34;Card image cap&#34;&gt;
+&lt;/div&gt;&lt;!--End of 2nd Card in Hobby Panel--&gt;
+&lt;div class=&#34;card&#34; style=&#34;width: 18rem;&#34;&gt;
+  &lt;img class=&#34;card-img-left&#34; src=&#34;/media/nvidia.jpg&#34; alt=&#34;Card image cap&#34;&gt;
+&lt;/div&gt; &lt;!--End of 3rd Card in Hobby Panel--&gt;
+&lt;/div&gt;&lt;!--End of card-group: Note this is used to group the cards into columns --&gt;
+&lt;/div&gt;&lt;!--End of Hobby Card--&gt;
+&lt;/div&gt;&lt;!--End of TAB CREATION --&gt;
+  &lt;/div&gt;&lt;!--Card--&gt;
+  &lt;/div&gt;&lt;!--Container--&gt;
 </description>
     </item>
     
