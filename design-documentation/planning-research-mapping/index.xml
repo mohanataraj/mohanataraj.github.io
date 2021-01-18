@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 2 - Planning Testing Research and Mapping | Mohan Nataraj</title>
+    <link>/design-documentation/planning-research-mapping/</link>
+      <atom:link href="/design-documentation/planning-research-mapping/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chapter 2 - Planning Testing Research and Mapping</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© **Mohan Nataraj** `2021-2022`</copyright><lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Chapter 2 - Planning Testing Research and Mapping</title>
+      <link>/design-documentation/planning-research-mapping/</link>
+    </image>
+    
+    <item>
+      <title>2.1. Planning - Envision</title>
+      <link>/design-documentation/planning-research-mapping/page-one/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/planning-research-mapping/page-one/</guid>
+      <description>&lt;h1 id=&#34;2-overview&#34;&gt;2. Overview&lt;/h1&gt;
+&lt;p&gt;This stage is where we have a user profile for an ideal user and also this stage is the middle stage of
+coming up with the idea and making the idea. So we invest time in this stage and do not go to prototying or visual stage
+without completing this stage of the idea.  &lt;br/&gt; &lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Here we use semi-visual i.e; words and diagrams to articulate our ideas&amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Planning&lt;/li&gt;
+&lt;li&gt;Testing&lt;/li&gt;
+&lt;li&gt;Researching&lt;/li&gt;
+&lt;li&gt;Mapping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR; 
+    App-Idea-- using words--&amp;gt;Envision;
+    Envision--words, maps, skteches --&amp;gt;Prototype;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;app idea (words) -&amp;gt; envision (words, maps, sketches) -&amp;gt; prototype (experience, final design)
+non-visual  -&amp;gt;           semi visual    -&amp;gt;                      visual&lt;/p&gt;
+&lt;h4 id=&#34;21-envision-&#34;&gt;2.1. Envision :&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;flowchart LR;
+mapping(Mapping content) &amp;lt;--&amp;gt; development(Developing ideas);
+development(Developing ideas)&amp;lt;--&amp;gt;paperprotptyping(Prototype testing);
+paperprotptyping(Prototype testing)&amp;lt;--&amp;gt;visualdevelopment(Wireframe &amp;amp; UI);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;This stage we are still developing the content and ideas. We can still change things at this stage.
+Be more analytical and critical about what can work and what will not work?&lt;/li&gt;
+&lt;li&gt;As the arrows in the flowchart indicate we can move front and back on any stage of the development until
+refined and accepeted to meet the required market needs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note: here we are going to come up with different functionalities of the app
+i.e; for eg: add a recipe (how the user is going to add it?)&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Note: this functionality will be added later after content mapping.
+So that each individual feature is explained in further detail. We also need to explore more feasible tech
+to do certain task with ease !
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;In the next page we will see the content mapping.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.2 Mapping Content &amp; Interaction</title>
+      <link>/design-documentation/planning-research-mapping/page-two/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/planning-research-mapping/page-two/</guid>
+      <description>&lt;h3 id=&#34;22-mapping-content-and-interaction&#34;&gt;2.2 Mapping Content and Interaction&lt;/h3&gt;
+&lt;p&gt;This page is mostly dedicated to writing content mapping and interaction via flowchart or sequence diagram using &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mermaid&lt;/a&gt;. For more advanced we
+can use other online editor&amp;rsquo;s such as &lt;a href=&#34;https://www.draw.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;draw.io&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;221-mapping-content&#34;&gt;2.2.1 Mapping Content:&lt;/h4&gt;
+&lt;p&gt;In this section we focus only on developing the content on each page of the app. &lt;br&gt; &lt;br&gt;
+We follow the rules defined below for defining our content mapping.&lt;/p&gt;
+&lt;h4 id=&#34;rules&#34;&gt;RULES:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;we use flowchart graphs for different pages.&lt;/li&gt;
+&lt;li&gt;subgraphs to map each content of a particular page - if it requires anything.&lt;/li&gt;
+&lt;li&gt;arrow heads represents moving to different page.&lt;/li&gt;
+&lt;li&gt;without arrow head represents line in the same page.&lt;/li&gt;
+&lt;li&gt;color codes for different elements of the flowchart will evolve as we work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Note: more rules may be added if and when required to better represent this phase of our work.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;222-mapping-interaction&#34;&gt;2.2.2 Mapping Interaction:&lt;/h4&gt;
+&lt;p&gt;Here we map the user interaction with arrow heads represents the following sequence / page.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

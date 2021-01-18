@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohan Nataraj</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© **Mohan Nataraj** `2021-2022`</copyright><lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© **Mohan Nataraj** `2021-2022`</copyright><lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Mohan Nataraj</title>
@@ -13,139 +13,51 @@
     </image>
     
     <item>
-      <title>Javascript Datatypes</title>
-      <link>/courses/example/example1/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example1/</guid>
-      <description>&lt;p&gt;&lt;code&gt;In this tutorial, I&#39;ll be specifying javascript datatypes in brief:&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;data-types&#34;&gt;Data types&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Primitive datatype : the datatype which does not have any additional properties and method associated with it other than the value itself.&lt;/li&gt;
-&lt;/ol&gt;
+      <title>2.1. Planning - Envision</title>
+      <link>/design-documentation/planning-research-mapping/page-one/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/planning-research-mapping/page-one/</guid>
+      <description>&lt;h1 id=&#34;2-overview&#34;&gt;2. Overview&lt;/h1&gt;
+&lt;p&gt;This stage is where we have a user profile for an ideal user and also this stage is the middle stage of
+coming up with the idea and making the idea. So we invest time in this stage and do not go to prototying or visual stage
+without completing this stage of the idea.  &lt;br/&gt; &lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Here we use semi-visual i.e; words and diagrams to articulate our ideas&amp;hellip;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The following are primitive in js:
+&lt;li&gt;Planning&lt;/li&gt;
+&lt;li&gt;Testing&lt;/li&gt;
+&lt;li&gt;Researching&lt;/li&gt;
+&lt;li&gt;Mapping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR; 
+    App-Idea-- using words--&amp;gt;Envision;
+    Envision--words, maps, skteches --&amp;gt;Prototype;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;app idea (words) -&amp;gt; envision (words, maps, sketches) -&amp;gt; prototype (experience, final design)
+non-visual  -&amp;gt;           semi visual    -&amp;gt;                      visual&lt;/p&gt;
+&lt;h4 id=&#34;21-envision-&#34;&gt;2.1. Envision :&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;flowchart LR;
+mapping(Mapping content) &amp;lt;--&amp;gt; development(Developing ideas);
+development(Developing ideas)&amp;lt;--&amp;gt;paperprotptyping(Prototype testing);
+paperprotptyping(Prototype testing)&amp;lt;--&amp;gt;visualdevelopment(Wireframe &amp;amp; UI);
+&lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
-&lt;li&gt;string (primitive)&lt;/li&gt;
-&lt;li&gt;number (64-bit)&lt;/li&gt;
-&lt;li&gt;boolean&lt;/li&gt;
-&lt;li&gt;undefined&lt;/li&gt;
+&lt;li&gt;This stage we are still developing the content and ideas. We can still change things at this stage.
+Be more analytical and critical about what can work and what will not work?&lt;/li&gt;
+&lt;li&gt;As the arrows in the flowchart indicate we can move front and back on any stage of the development until
+refined and accepeted to meet the required market needs&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;JS evaluates an expression from &lt;strong&gt;left to right&lt;/strong&gt;, therefore different sequence may produce different results.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;code&gt;
-  var result = 10 + 4 + &#39;hello&#39;; // [o/p]: result = 14hello &lt;br/&gt;
-  var result = &#39;hello&#39; + 10 + 4; // [o/p]: result = hello104 &lt;br/&gt;
-&lt;/code&gt; &lt;br/&gt;
-- JS types are dynamic, they take on different value at different scope.
-&lt;code&gt;&lt;br/&gt;
-var x; &lt;br/&gt;[o/p]: type is undefined &lt;br/&gt;
-x = 5;&lt;br/&gt;[o/p]: type is number &lt;br/&gt;
-x = &#34;hi&#34;;&lt;br/&gt;[o/p]: type is string &lt;br/&gt;
-&lt;/code&gt; &lt;br/&gt;
-2. Objects : has additional properties and methods.
-  - Object = when we initialize with a _new_ keyword as shown below &lt;br /&gt;
-  &lt;code&gt;
-eg: var firstName = new String(&#34;John&#34;);&lt;br/&gt;
-      var age = new Number(10); &lt;br/&gt;
-&lt;/code&gt; 
-&lt;ul&gt;
-&lt;li&gt;Number, Boolean can also be defined as an object as seen above.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Array&lt;/strong&gt; is an &lt;strong&gt;object&lt;/strong&gt; type and it has various method.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Page 2</title>
-      <link>/courses/example/example2/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example2/</guid>
-      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2. Audience &amp; Rationale</title>
-      <link>/design-documentation/ideation/page-two/</link>
-      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/design-documentation/ideation/page-two/</guid>
-      <description>&lt;p&gt;We initially list the following targeted users that the application will be useful for or used by mostly. We use this data to
-better design the application and the business model.&lt;/p&gt;
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;div&gt;
-    Requires more user research from various to expand or strengthen the list.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h4 id=&#34;1-political&#34;&gt;1. POLITICAL&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;people who are a part of fit movement
-&lt;ul&gt;
-&lt;li&gt;health concious&lt;/li&gt;
-&lt;li&gt;eco-friendly&lt;/li&gt;
-&lt;li&gt;pro-active in their lifestyle&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2-functional&#34;&gt;2. FUNCTIONAL&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;people who want to change their habits for a better well-being. (food, fitness and mind/mental)
-&lt;ul&gt;
-&lt;li&gt;uninformed/new to the lifestyle&lt;/li&gt;
-&lt;li&gt;want to track their fitness&lt;/li&gt;
-&lt;li&gt;want entertainment/ activity&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;3-professional&#34;&gt;3. PROFESSIONAL&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;people who want to use it as a professional/business tool
-&lt;ul&gt;
-&lt;li&gt;manage clients (&lt;em&gt;nutrionalists/trainer for food and fitness&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;mind/mental wellness worker (&lt;em&gt;yoga teachers etc&amp;hellip;&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;event organizers - users and brands / venues etc&amp;hellip; (&lt;em&gt;gyms/hotels/etc&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;brand promotions via fitness professionals (&lt;em&gt;nike/adidas/local apparels&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;homemakers.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;4-social&#34;&gt;4. SOCIAL&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;people who want to be inventive
-&lt;ul&gt;
-&lt;li&gt;companies/corporates being adventerous with employees&lt;/li&gt;
-&lt;li&gt;social engagement / events&lt;/li&gt;
-&lt;li&gt;try different tech - adventerous people&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;5-financial&#34;&gt;5. FINANCIAL&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;people who want to save money
-&lt;ul&gt;
-&lt;li&gt;thrifty&lt;/li&gt;
-&lt;li&gt;on a budget&lt;/li&gt;
-&lt;li&gt;just because it should be free.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Note: here we are going to come up with different functionalities of the app
+i.e; for eg: add a recipe (how the user is going to add it?)&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    The above mentioned are initial target audience and may increase or shorten the list as we grow or pivot !
+    Note: this functionality will be added later after content mapping.
+So that each individual feature is explained in further detail. We also need to explore more feasible tech
+to do certain task with ease !
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;In the next page we will see the content mapping.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -354,13 +266,235 @@ We use following tentative ways :-&lt;/li&gt;
     </item>
     
     <item>
+      <title>Javascript Datatypes</title>
+      <link>/courses/example/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example1/</guid>
+      <description>&lt;p&gt;&lt;code&gt;In this tutorial, I&#39;ll be specifying javascript datatypes in brief:&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;data-types&#34;&gt;Data types&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Primitive datatype : the datatype which does not have any additional properties and method associated with it other than the value itself.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;The following are primitive in js:
+&lt;ul&gt;
+&lt;li&gt;string (primitive)&lt;/li&gt;
+&lt;li&gt;number (64-bit)&lt;/li&gt;
+&lt;li&gt;boolean&lt;/li&gt;
+&lt;li&gt;undefined&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;JS evaluates an expression from &lt;strong&gt;left to right&lt;/strong&gt;, therefore different sequence may produce different results.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;code&gt;
+  var result = 10 + 4 + &#39;hello&#39;; // [o/p]: result = 14hello &lt;br/&gt;
+  var result = &#39;hello&#39; + 10 + 4; // [o/p]: result = hello104 &lt;br/&gt;
+&lt;/code&gt; &lt;br/&gt;
+- JS types are dynamic, they take on different value at different scope.
+&lt;code&gt;&lt;br/&gt;
+var x; &lt;br/&gt;[o/p]: type is undefined &lt;br/&gt;
+x = 5;&lt;br/&gt;[o/p]: type is number &lt;br/&gt;
+x = &#34;hi&#34;;&lt;br/&gt;[o/p]: type is string &lt;br/&gt;
+&lt;/code&gt; &lt;br/&gt;
+2. Objects : has additional properties and methods.
+  - Object = when we initialize with a _new_ keyword as shown below &lt;br /&gt;
+  &lt;code&gt;
+eg: var firstName = new String(&#34;John&#34;);&lt;br/&gt;
+      var age = new Number(10); &lt;br/&gt;
+&lt;/code&gt; 
+&lt;ul&gt;
+&lt;li&gt;Number, Boolean can also be defined as an object as seen above.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Array&lt;/strong&gt; is an &lt;strong&gt;object&lt;/strong&gt; type and it has various method.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.2 Mapping Content &amp; Interaction</title>
+      <link>/design-documentation/planning-research-mapping/page-two/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/planning-research-mapping/page-two/</guid>
+      <description>&lt;h3 id=&#34;22-mapping-content-and-interaction&#34;&gt;2.2 Mapping Content and Interaction&lt;/h3&gt;
+&lt;p&gt;This page is mostly dedicated to writing content mapping and interaction via flowchart or sequence diagram using &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mermaid&lt;/a&gt;. For more advanced we
+can use other online editor&amp;rsquo;s such as &lt;a href=&#34;https://www.draw.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;draw.io&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;221-mapping-content&#34;&gt;2.2.1 Mapping Content:&lt;/h4&gt;
+&lt;p&gt;In this section we focus only on developing the content on each page of the app. &lt;br&gt; &lt;br&gt;
+We follow the rules defined below for defining our content mapping.&lt;/p&gt;
+&lt;h4 id=&#34;rules&#34;&gt;RULES:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;we use flowchart graphs for different pages.&lt;/li&gt;
+&lt;li&gt;subgraphs to map each content of a particular page - if it requires anything.&lt;/li&gt;
+&lt;li&gt;arrow heads represents moving to different page.&lt;/li&gt;
+&lt;li&gt;without arrow head represents line in the same page.&lt;/li&gt;
+&lt;li&gt;color codes for different elements of the flowchart will evolve as we work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Note: more rules may be added if and when required to better represent this phase of our work.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;222-mapping-interaction&#34;&gt;2.2.2 Mapping Interaction:&lt;/h4&gt;
+&lt;p&gt;Here we map the user interaction with arrow heads represents the following sequence / page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Audience &amp; Rationale</title>
+      <link>/design-documentation/ideation/page-two/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/ideation/page-two/</guid>
+      <description>&lt;p&gt;We initially list the following targeted users that the application will be useful for or used by mostly. We use this data to
+better design the application and the business model.&lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Requires more user research from various to expand or strengthen the list.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;1-political&#34;&gt;1. POLITICAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who are a part of fit movement
+&lt;ul&gt;
+&lt;li&gt;health concious&lt;/li&gt;
+&lt;li&gt;eco-friendly&lt;/li&gt;
+&lt;li&gt;pro-active in their lifestyle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-functional&#34;&gt;2. FUNCTIONAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to change their habits for a better well-being. (food, fitness and mind/mental)
+&lt;ul&gt;
+&lt;li&gt;uninformed/new to the lifestyle&lt;/li&gt;
+&lt;li&gt;want to track their fitness&lt;/li&gt;
+&lt;li&gt;want entertainment/ activity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-professional&#34;&gt;3. PROFESSIONAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to use it as a professional/business tool
+&lt;ul&gt;
+&lt;li&gt;manage clients (&lt;em&gt;nutrionalists/trainer for food and fitness&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;mind/mental wellness worker (&lt;em&gt;yoga teachers etc&amp;hellip;&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;event organizers - users and brands / venues etc&amp;hellip; (&lt;em&gt;gyms/hotels/etc&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;brand promotions via fitness professionals (&lt;em&gt;nike/adidas/local apparels&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;homemakers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4-social&#34;&gt;4. SOCIAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to be inventive
+&lt;ul&gt;
+&lt;li&gt;companies/corporates being adventerous with employees&lt;/li&gt;
+&lt;li&gt;social engagement / events&lt;/li&gt;
+&lt;li&gt;try different tech - adventerous people&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;5-financial&#34;&gt;5. FINANCIAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to save money
+&lt;ul&gt;
+&lt;li&gt;thrifty&lt;/li&gt;
+&lt;li&gt;on a budget&lt;/li&gt;
+&lt;li&gt;just because it should be free.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The above mentioned are initial target audience and may increase or shorten the list as we grow or pivot !
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>/courses/example/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example2/</guid>
+      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Naming and Mission</title>
+      <link>/design-documentation/ideation/page-three/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/ideation/page-three/</guid>
+      <description>&lt;h4 id=&#34;31-name&#34;&gt;3.1 Name&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The name is currently decided and stays fit there.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mission of the application can be concluded from the previous pages of the chapter. Will elobrate on them
+once we are further into the process.&lt;/p&gt;
+&lt;p&gt;An idea about the mission is to basically serve best food and activity to everyone while they keep track of
+all the necessary nutritients in their body. This will not conduce to a better well-being but also requires
+other external environment to make a persons life better. We are more focused on health as in food and well-being
+as in physical and mental well-being.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CANCER: Mathematical, Computational &amp; Game Theoritical concepts for Drug Development</title>
       <link>/project/cancer-research-and-drug-development/</link>
       <pubDate>Mon, 14 Dec 2020 22:20:33 +0530</pubDate>
       <guid>/project/cancer-research-and-drug-development/</guid>
       <description>&lt;h1 id=&#34;research-proposal----emself-em&#34;&gt;RESEARCH PROPOSAL -  &lt;em&gt;self &lt;/em&gt;&lt;/h1&gt;
-&lt;h3 id=&#34;1-introduction--&#34;&gt;1. Introduction -&lt;/h3&gt;
-&lt;p&gt;&amp;hellip;to be done&amp;hellip; soon .. Aeonic research project&lt;/p&gt;
+&lt;h3 id=&#34;1-informal-introduction--&#34;&gt;1. Informal Introduction -&lt;/h3&gt;
+&lt;p&gt;This is an Aeonic research project, which is quite evolving over a period of time for the following reason:-&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The domain knowledge with respect to the subject Biology is very limited, infact quite unsubstantial with the following research feilds.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Molecular Biology&lt;/li&gt;
+&lt;li&gt;Fundamentals of Biochemisty&lt;/li&gt;
+&lt;li&gt;Cell Biology&lt;/li&gt;
+&lt;li&gt;Microbiology&lt;/li&gt;
+&lt;li&gt;Science of Stem cell research  - (seems like a promising field)&lt;/li&gt;
+&lt;li&gt;Genes/Genetics and all it&amp;rsquo;s implications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I do read or have read biological technical paper&amp;rsquo;s / science papers, to see the progress with a specific field
+such as DNA/RNA sequencing / Genomics and I do carefully progress while establishing fundamentals of above mentioned
+topics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;card bg-success text-white w-50&#34;&gt;
+  &lt;img class=&#34;card-img-top&#34; src=&#34;https://www.cancer.gov/sites/g/files/xnrzdm211/files/styles/cgov_enlarged/public/cgov_image/media_image/2020-07/CRISPR-edited-T-Cell-Therapy-Infographic.jpg?itok=4eDpTazN&#34; alt=&#34;Card image cap&#34;&gt;
+  &lt;div class=&#34;card-body&#34;&gt;
+  &lt;div class=&#34;card-text&#34;&gt; To know more about &lt;strong style=&#34;color:black&#34;&gt;  CRISPR &lt;/strong&gt; in Cancer Treatment and its &lt;strong style=&#34;color:black&#34;&gt;Limitations &lt;/strong&gt;follow the link below.&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cancer.gov/news-events/cancer-currents-blog/2020/crispr-cancer-research-treatment&#34; class=&#34;btn btn-danger&#34; role=&#34;button&#34;&gt; &lt;strong&gt; Read More &lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    There are more aspect to study about different types of cells of the vital organs and  biological activities.
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     

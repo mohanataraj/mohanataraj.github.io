@@ -13,78 +13,6 @@
     </image>
     
     <item>
-      <title>2. Audience &amp; Rationale</title>
-      <link>/design-documentation/ideation/page-two/</link>
-      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/design-documentation/ideation/page-two/</guid>
-      <description>&lt;p&gt;We initially list the following targeted users that the application will be useful for or used by mostly. We use this data to
-better design the application and the business model.&lt;/p&gt;
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;div&gt;
-    Requires more user research from various to expand or strengthen the list.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h4 id=&#34;1-political&#34;&gt;1. POLITICAL&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;people who are a part of fit movement
-&lt;ul&gt;
-&lt;li&gt;health concious&lt;/li&gt;
-&lt;li&gt;eco-friendly&lt;/li&gt;
-&lt;li&gt;pro-active in their lifestyle&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;2-functional&#34;&gt;2. FUNCTIONAL&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;people who want to change their habits for a better well-being. (food, fitness and mind/mental)
-&lt;ul&gt;
-&lt;li&gt;uninformed/new to the lifestyle&lt;/li&gt;
-&lt;li&gt;want to track their fitness&lt;/li&gt;
-&lt;li&gt;want entertainment/ activity&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;3-professional&#34;&gt;3. PROFESSIONAL&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;people who want to use it as a professional/business tool
-&lt;ul&gt;
-&lt;li&gt;manage clients (&lt;em&gt;nutrionalists/trainer for food and fitness&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;mind/mental wellness worker (&lt;em&gt;yoga teachers etc&amp;hellip;&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;event organizers - users and brands / venues etc&amp;hellip; (&lt;em&gt;gyms/hotels/etc&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;brand promotions via fitness professionals (&lt;em&gt;nike/adidas/local apparels&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;homemakers.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;4-social&#34;&gt;4. SOCIAL&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;people who want to be inventive
-&lt;ul&gt;
-&lt;li&gt;companies/corporates being adventerous with employees&lt;/li&gt;
-&lt;li&gt;social engagement / events&lt;/li&gt;
-&lt;li&gt;try different tech - adventerous people&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;5-financial&#34;&gt;5. FINANCIAL&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;people who want to save money
-&lt;ul&gt;
-&lt;li&gt;thrifty&lt;/li&gt;
-&lt;li&gt;on a budget&lt;/li&gt;
-&lt;li&gt;just because it should be free.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    The above mentioned are initial target audience and may increase or shorten the list as we grow or pivot !
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>1. Ideation &amp; User Research</title>
       <link>/design-documentation/ideation/page-one/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
@@ -285,6 +213,100 @@ We use following tentative ways :-&lt;/li&gt;
     Note: This entire document will be updated as and when we progress. This is not final !!!
   &lt;/div&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Audience &amp; Rationale</title>
+      <link>/design-documentation/ideation/page-two/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/ideation/page-two/</guid>
+      <description>&lt;p&gt;We initially list the following targeted users that the application will be useful for or used by mostly. We use this data to
+better design the application and the business model.&lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Requires more user research from various to expand or strengthen the list.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;1-political&#34;&gt;1. POLITICAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who are a part of fit movement
+&lt;ul&gt;
+&lt;li&gt;health concious&lt;/li&gt;
+&lt;li&gt;eco-friendly&lt;/li&gt;
+&lt;li&gt;pro-active in their lifestyle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-functional&#34;&gt;2. FUNCTIONAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to change their habits for a better well-being. (food, fitness and mind/mental)
+&lt;ul&gt;
+&lt;li&gt;uninformed/new to the lifestyle&lt;/li&gt;
+&lt;li&gt;want to track their fitness&lt;/li&gt;
+&lt;li&gt;want entertainment/ activity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-professional&#34;&gt;3. PROFESSIONAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to use it as a professional/business tool
+&lt;ul&gt;
+&lt;li&gt;manage clients (&lt;em&gt;nutrionalists/trainer for food and fitness&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;mind/mental wellness worker (&lt;em&gt;yoga teachers etc&amp;hellip;&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;event organizers - users and brands / venues etc&amp;hellip; (&lt;em&gt;gyms/hotels/etc&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;brand promotions via fitness professionals (&lt;em&gt;nike/adidas/local apparels&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;homemakers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4-social&#34;&gt;4. SOCIAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to be inventive
+&lt;ul&gt;
+&lt;li&gt;companies/corporates being adventerous with employees&lt;/li&gt;
+&lt;li&gt;social engagement / events&lt;/li&gt;
+&lt;li&gt;try different tech - adventerous people&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;5-financial&#34;&gt;5. FINANCIAL&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;people who want to save money
+&lt;ul&gt;
+&lt;li&gt;thrifty&lt;/li&gt;
+&lt;li&gt;on a budget&lt;/li&gt;
+&lt;li&gt;just because it should be free.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The above mentioned are initial target audience and may increase or shorten the list as we grow or pivot !
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Naming and Mission</title>
+      <link>/design-documentation/ideation/page-three/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/ideation/page-three/</guid>
+      <description>&lt;h4 id=&#34;31-name&#34;&gt;3.1 Name&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The name is currently decided and stays fit there.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mission of the application can be concluded from the previous pages of the chapter. Will elobrate on them
+once we are further into the process.&lt;/p&gt;
+&lt;p&gt;An idea about the mission is to basically serve best food and activity to everyone while they keep track of
+all the necessary nutritients in their body. This will not conduce to a better well-being but also requires
+other external environment to make a persons life better. We are more focused on health as in food and well-being
+as in physical and mental well-being.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

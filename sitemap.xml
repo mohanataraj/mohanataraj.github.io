@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/design-documentation/planning-research-mapping/page-one/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/design-documentation/ideation/page-one/</loc>
+    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/design-documentation/ideation/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url>
@@ -23,8 +33,13 @@
   </url>
   
   <url>
-    <loc>/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <loc>/design-documentation/planning-research-mapping/page-two/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/design-documentation/planning-research-mapping/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,13 +48,28 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2021-01-06T00:00:00+00:00</lastmod>
+    <loc>/courses/example/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/design-documentation/ideation/page-one/</loc>
-    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    <loc>/design-documentation/ideation/page-three/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/planner-prog/math-coursework/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/planner-prog/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
