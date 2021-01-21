@@ -333,6 +333,81 @@ We follow the rules defined below for defining our content mapping.&lt;/p&gt;
     Note: more rules may be added if and when required to better represent this phase of our work.
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h5 id=&#34;2221-major-components-of-app&#34;&gt;2.2.2.1 Major components of App:&lt;/h5&gt;
+&lt;p&gt;The 4 major components of the applications are the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Welcome page - contents&lt;/li&gt;
+&lt;li&gt;Food&lt;/li&gt;
+&lt;li&gt;Exercise&lt;/li&gt;
+&lt;li&gt;Wellness - (Mood/Stress level)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;1-welcome-page&#34;&gt;1. Welcome Page:&lt;/h4&gt;
+&lt;p&gt;This is the page when the user enters, sees the welcome message and statistics for the day.&lt;/p&gt;
+&lt;h4 id=&#34;11-mobile--desktop-landing-page&#34;&gt;1.1 Mobile &amp;amp; Desktop Landing Page:&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;flowchart LR
+id1(fas:fa-home Home / Main Page) --- id2(Contents - Main Page);
+id1 --- Food;
+id1 --- Exercise;
+id1 --- Polls;
+id1 --- Community;
+id1 --- Events;
+id1 --- Challenges;
+id1 --- Blog;
+subgraph Home Content 
+id2 --- id3(Home  Content);
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;12-mobile-main-page---contents&#34;&gt;1.2 Mobile main page - contents&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;flowchart RL
+id0[fas:fa-home Home Content] --- id100[[fas:fa-running Movement = Exercise + STEPS ]]
+id0 --- id101[[fas:fa-utensils Calories/Nourish/Nutrients]]
+id0 --- id102[[fas:fa-water Water]]
+id0 --- id103[[fas:fa-brain Mental wellness]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;121-calorie--nourishment-&#34;&gt;1.2.1 Calorie / Nourish(ment) :&lt;/h4&gt;
+&lt;p&gt;This component is the extention of the each individual components &amp;amp; sub-routines of the &amp;ldquo;Home Content page&amp;rdquo;.
+This page gives the stats of the calorie intake.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;flowchart TD
+id101[[ Calories/ Nourshiment/ Nutrition ]] --- id50{{fas:fa-chart-pie Donut Graph}}
+id101 --&amp;gt; id40[fas:fa-chart-line Stat Page]
+id40 --- idFR[fas:fa-utensils Food Reconmmendation - Chefs]
+id40 --- Marco-Nutrients
+idFR --&amp;gt; id20{Add Journal Button}---|YES|Todays-Journal-Page
+id20 --YES --&amp;gt; idCC[[Compute Calorie]]
+id20 --NO--&amp;gt; id42[far:fa-stop-circle stop]
+id40 --- id20
+idCC --&amp;gt; idccs(fas:fa-apple-alt Compute-Engine )
+idFR --&amp;gt; idsl[fas:fa-save Save for later fas:fa-bookmark]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;122-movement--exercise--steps&#34;&gt;1.2.2 Movement = Exercise + Steps:&lt;/h4&gt;
+&lt;p&gt;This component of the home content page gives the stats of calorie expenditure and steps taken from fit/apple/android devices.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;flowchart TD
+id101[[fas:fa-running Movement = exercise + steps ]] --- id50{{fas:fa-chart-pie Donut or Sun Graph}} 
+id101 --&amp;gt; id40[fas:fa-chart-line Stat Page]
+id101 --- idER[fas:fa-fire-alt Exercise Reconmmendation - Trainers]
+idER --&amp;gt; id20{Add Journal Button}---|YES|Todays-Journal-Page
+id20 --YES --&amp;gt; idCC[[Compute Calorie]]
+id20 --NO--&amp;gt; id42[far:fa-stop-circle stop]
+id40 --- id20
+idCC --&amp;gt; idccs(fas:fa-apple-alt Compute-Engine )
+idER --- idsa[fas:fa-save Save for Later fas:fa-bookmark] 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;123-water&#34;&gt;1.2.3 Water:&lt;/h4&gt;
+&lt;p&gt;This component takes water input to make sure you are well hydrated.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dotted line : represents the feature may or may not be added.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;flowchart TD
+id102[[fas:fa-water Water]] --- idwg{{ Water: widget take water input}}
+id102 -.- idER[ Juice Reconmmendation]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;124-mind---wellness--mood&#34;&gt;1.2.4 Mind - Wellness / Mood:&lt;/h4&gt;
+&lt;p&gt;In this component we take user inputs mood early morning and night, we also provide events/podcasts and
+activities and other aspects required for mental wellness.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;flowchart TD
+id103[[fas:fa-brain Mental wellness]] --- id10{{Mood Widget}}
+id103 --- id1[Events]
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&#34;222-mapping-interaction&#34;&gt;2.2.2 Mapping Interaction:&lt;/h4&gt;
 &lt;p&gt;Here we map the user interaction with arrow heads represents the following sequence / page.&lt;/p&gt;
 </description>

@@ -630,89 +630,165 @@
   </div>
 
   <div class="page-body">
-    <article class="article">
+    
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
 
   
-
-
-
-
-
-
-
-
-
-
-
-
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
   
+</form>
 
+<nav class="collapse docs-links" id="docs-nav">
   
   
   
-<div class="article-container pt-3">
-  <h1>2.2 Mapping Content &amp; Interaction</h1>
-
   
+  
+  
+  
+    
+    
+
+    
+    
+  
+
 
   
     
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
+    
     
     
       
     
-    Jan 16, 2021
-  </span>
-  
+    
+
+    
+      <ul class="nav docs-sidenav">
+        <li class=""><a href="/design-documentation/">Design Documentation</a></li>
+    
+      
+
 
   
+    
+    
+    
+    
+      
+    
+    
 
-  
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/design-documentation/ideation/">Chapter 1 - Ideation</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
 
-  
-  
-  
-  
-  
 
-  
-  
+  <li class=""><a href="/design-documentation/ideation/page-one/">1. Ideation &amp; User Research</a></li>
 
-</div>
 
+
+  <li class=""><a href="/design-documentation/ideation/page-two/">2. Audience &amp; Rationale</a></li>
+
+
+
+  <li class=""><a href="/design-documentation/ideation/page-three/">3. Naming and Mission</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
     
 
 
 
-
-
-
-
-
-
-
-
-
-
-
   
-</div>
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/design-documentation/planning-research-mapping/">Chapter 2 - Planning Testing Research and Mapping</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class=""><a href="/design-documentation/planning-research-mapping/page-one/">2.1. Planning - Envision</a></li>
 
 
 
-  <div class="article-container">
+  <li class="active"><a href="/design-documentation/planning-research-mapping/page-two/">2.2 Mapping Content &amp; Interaction</a></li>
 
-    <div class="article-style">
-      <h3 id="22-mapping-content-and-interaction">2.2 Mapping Content and Interaction</h3>
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+      
+    
+
+    
+      </ul>
+    
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#22-mapping-content-and-interaction">2.2 Mapping Content and Interaction</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>2.2 Mapping Content &amp; Interaction</h1>
+
+          <div class="article-style">
+            <h3 id="22-mapping-content-and-interaction">2.2 Mapping Content and Interaction</h3>
 <p>This page is mostly dedicated to writing content mapping and interaction via flowchart or sequence diagram using <a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">mermaid</a>. For more advanced we
 can use other online editor&rsquo;s such as <a href="https://www.draw.io" target="_blank" rel="noopener">draw.io</a></p>
 <h4 id="221-mapping-content">2.2.1 Mapping Content:</h4>
@@ -731,236 +807,133 @@ We follow the rules defined below for defining our content mapping.</p>
     Note: more rules may be added if and when required to better represent this phase of our work.
   </div>
 </div>
+<h5 id="2221-major-components-of-app">2.2.2.1 Major components of App:</h5>
+<p>The 4 major components of the applications are the following:</p>
+<ol>
+<li>Welcome page - contents</li>
+<li>Food</li>
+<li>Exercise</li>
+<li>Wellness - (Mood/Stress level)</li>
+</ol>
+<h4 id="1-welcome-page">1. Welcome Page:</h4>
+<p>This is the page when the user enters, sees the welcome message and statistics for the day.</p>
+<h4 id="11-mobile--desktop-landing-page">1.1 Mobile &amp; Desktop Landing Page:</h4>
+<pre><code class="language-mermaid">flowchart LR
+id1(fas:fa-home Home / Main Page) --- id2(Contents - Main Page);
+id1 --- Food;
+id1 --- Exercise;
+id1 --- Polls;
+id1 --- Community;
+id1 --- Events;
+id1 --- Challenges;
+id1 --- Blog;
+subgraph Home Content 
+id2 --- id3(Home  Content);
+end
+</code></pre>
+<h4 id="12-mobile-main-page---contents">1.2 Mobile main page - contents</h4>
+<pre><code class="language-mermaid">flowchart RL
+id0[fas:fa-home Home Content] --- id100[[fas:fa-running Movement = Exercise + STEPS ]]
+id0 --- id101[[fas:fa-utensils Calories/Nourish/Nutrients]]
+id0 --- id102[[fas:fa-water Water]]
+id0 --- id103[[fas:fa-brain Mental wellness]]
+</code></pre>
+<h4 id="121-calorie--nourishment-">1.2.1 Calorie / Nourish(ment) :</h4>
+<p>This component is the extention of the each individual components &amp; sub-routines of the &ldquo;Home Content page&rdquo;.
+This page gives the stats of the calorie intake.</p>
+<pre><code class="language-mermaid">flowchart TD
+id101[[ Calories/ Nourshiment/ Nutrition ]] --- id50{{fas:fa-chart-pie Donut Graph}}
+id101 --&gt; id40[fas:fa-chart-line Stat Page]
+id40 --- idFR[fas:fa-utensils Food Reconmmendation - Chefs]
+id40 --- Marco-Nutrients
+idFR --&gt; id20{Add Journal Button}---|YES|Todays-Journal-Page
+id20 --YES --&gt; idCC[[Compute Calorie]]
+id20 --NO--&gt; id42[far:fa-stop-circle stop]
+id40 --- id20
+idCC --&gt; idccs(fas:fa-apple-alt Compute-Engine )
+idFR --&gt; idsl[fas:fa-save Save for later fas:fa-bookmark]
+</code></pre>
+<h4 id="122-movement--exercise--steps">1.2.2 Movement = Exercise + Steps:</h4>
+<p>This component of the home content page gives the stats of calorie expenditure and steps taken from fit/apple/android devices.</p>
+<pre><code class="language-mermaid">flowchart TD
+id101[[fas:fa-running Movement = exercise + steps ]] --- id50{{fas:fa-chart-pie Donut or Sun Graph}} 
+id101 --&gt; id40[fas:fa-chart-line Stat Page]
+id101 --- idER[fas:fa-fire-alt Exercise Reconmmendation - Trainers]
+idER --&gt; id20{Add Journal Button}---|YES|Todays-Journal-Page
+id20 --YES --&gt; idCC[[Compute Calorie]]
+id20 --NO--&gt; id42[far:fa-stop-circle stop]
+id40 --- id20
+idCC --&gt; idccs(fas:fa-apple-alt Compute-Engine )
+idER --- idsa[fas:fa-save Save for Later fas:fa-bookmark] 
+</code></pre>
+<h4 id="123-water">1.2.3 Water:</h4>
+<p>This component takes water input to make sure you are well hydrated.</p>
+<ul>
+<li>Dotted line : represents the feature may or may not be added.</li>
+</ul>
+<pre><code class="language-mermaid">flowchart TD
+id102[[fas:fa-water Water]] --- idwg{{ Water: widget take water input}}
+id102 -.- idER[ Juice Reconmmendation]
+</code></pre>
+<h4 id="124-mind---wellness--mood">1.2.4 Mind - Wellness / Mood:</h4>
+<p>In this component we take user inputs mood early morning and night, we also provide events/podcasts and
+activities and other aspects required for mental wellness.</p>
+<pre><code class="language-mermaid">flowchart TD
+id103[[fas:fa-brain Mental wellness]] --- id10{{Mood Widget}}
+id103 --- id1[Events]
+</code></pre>
 <h4 id="222-mapping-interaction">2.2.2 Mapping Interaction:</h4>
 <p>Here we map the user interaction with arrow heads represents the following sequence / page.</p>
 
-    </div>
+          </div>
 
-    
-
-
+          
 
 
 
-
-
-
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=/design-documentation/planning-research-mapping/page-two/&amp;text=2.2%20Mapping%20Content%20&amp;amp;%20Interaction" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=/design-documentation/planning-research-mapping/page-two/&amp;t=2.2%20Mapping%20Content%20&amp;amp;%20Interaction" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=2.2%20Mapping%20Content%20&amp;amp;%20Interaction&amp;body=/design-documentation/planning-research-mapping/page-two/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/design-documentation/planning-research-mapping/page-two/&amp;title=2.2%20Mapping%20Content%20&amp;amp;%20Interaction" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=2.2%20Mapping%20Content%20&amp;amp;%20Interaction%20/design-documentation/planning-research-mapping/page-two/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=/design-documentation/planning-research-mapping/page-two/&amp;title=2.2%20Mapping%20Content%20&amp;amp;%20Interaction" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/design-documentation/planning-research-mapping/page-one/" rel="next">2.1. Planning - Envision</a>
+  </div>
+  
+  
 </div>
 
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jan 16, 2021</p>
+
+          
 
 
 
 
 
+          
 
 
 
 
-
-  
-  
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      
-      <a href="/"><img class="avatar mr-3 avatar-circle" src="/author/mohan-nataraj/avatar_hu373314058227dc4e41dd686320603e7e_62751_270x270_fill_q90_lanczos_center.jpg" alt="Mohan Nataraj"></a>
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/">Mohan Nataraj</a></h5>
-      <h6 class="card-subtitle">Pure Mathematician &amp; Computer Scientist</h6>
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/MohanNataraj2" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/mohanataraj" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
+          
 
 
 
 
+        </div>
 
+      </article>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-</article>
-  </div>
-
-  <div class="page-footer">
-    
-    
-    <div class="container">
       <footer class="site-footer">
   
 
@@ -988,7 +961,15 @@ We follow the rules defined below for defining our content mapping.</p>
   </p>
 </footer>
 
-    </div>
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
     
   </div>
 
@@ -1078,6 +1059,11 @@ We follow the rules defined below for defining our content mapping.</p>
     
 
     
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
     
 
     
