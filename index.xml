@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohan Nataraj</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© **Mohan Nataraj** `2021-2022`</copyright><lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© **Mohan Nataraj** `2021-2022`</copyright><lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Mohan Nataraj</title>
@@ -407,9 +407,59 @@ activities and other aspects required for mental wellness.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;flowchart TD
 id103[[fas:fa-brain Mental wellness]] --- id10{{Mood Widget}}
 id103 --- id1[Events]
+id103 --- id2[Podcasts]
+id103 ---- Yoga
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;13-bottom-nav-bar&#34;&gt;1.3 Bottom Nav bar:&lt;/h4&gt;
+&lt;p&gt;The botton nav bar of the application is designed to make sure the objective of the user is reached within &lt;em&gt;3-clicks&lt;/em&gt;, such as to go
+to any aspect of the application - view their stats, create challenges, blog, create events, find events etc&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; this bar may further improve based on other research inputs.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph BT
+id01[fas:fa-home Home]
+id02[fas:fa-running Movement]
+id03[fas:fa-camera Create Button]
+id04[fas:fa-utensils Calories]
+id05[fas:fa-cog Setting]
+id01 --- if06[fas:fa-bars Menu]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;14-create-button&#34;&gt;1.4 Create Button&lt;/h4&gt;
+&lt;p&gt;This button has short cuts to create contents such as challenges, events, blogs or podcasts etc&amp;hellip;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph BT
+id03[fas:fa-camera Create Button] --- blog
+id03 ---- id02[challenge]
+id03 --- id04[event]
+id03 --- id05[podcasts]
+id03 --- id06[Polls]
+subgraph  Challenge
+id02 --- id11[Food]
+id02 --- id12[Fit]
+end
+subgraph Polls
+id06 --- Food
+id06 --- Fit
+end 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;15-menu&#34;&gt;1.5 Menu&lt;/h4&gt;
+&lt;p&gt;This components basically contains short cut to go to community, events and challenge page&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR
+id01[fas:fa-bars Menu] --- id02[Community]--&amp;gt;id11[Community Page]
+id01 --- id03[fas:fa-blog Blog]--&amp;gt;id10[Blogs Page] 
+id01 --- id04[Event]--&amp;gt;id09[Events Page]
+id01 --- id05[Podcasts]--&amp;gt; id08[Podcast Page]
+id01 --- id06[Profile or Dashboard]--&amp;gt; id07[Profile Page]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;151-community&#34;&gt;1.5.1 Community:&lt;/h4&gt;
+&lt;p&gt;This component contains nutrition (food recipes/food rec), exercise, challenges, events, podcasts.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph BT
+id01[fas:fa-users Community] --- id02[fas:fa-running Movement]
+id01 --- id03[fas:fa-utensils Nutrition]
+id01 --- id04[fas:fa-fist-raised Challenge]
+id01 --- id05[fas:fa-poll Polls]
+id01 --- id06[fas:fa-calendar-alt Events]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&#34;222-mapping-interaction&#34;&gt;2.2.2 Mapping Interaction:&lt;/h4&gt;
 &lt;p&gt;Here we map the user interaction with arrow heads represents the following sequence / page.&lt;/p&gt;
+&lt;p&gt;Please refer the above mapping content section which has paritally done the interaction mapping.&lt;/p&gt;
 </description>
     </item>
     
@@ -524,6 +574,29 @@ all the necessary nutritients in their body. This will not conduce to a better w
 other external environment to make a persons life better. We are more focused on health as in food and well-being
 as in physical and mental well-being.&lt;/p&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.3 User Journey</title>
+      <link>/design-documentation/planning-research-mapping/page-three/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/design-documentation/planning-research-mapping/page-three/</guid>
+      <description>&lt;h4 id=&#34;231-user-journey-flowchart&#34;&gt;2.3.1 User Journey Flowchart&lt;/h4&gt;
+&lt;p&gt;In this section we are going to map the user journey for the following user :-&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;free user (users/trainers/nutritionalist/chefs/bloggers)&lt;/li&gt;
+&lt;li&gt;trainers
+&lt;ul&gt;
+&lt;li&gt;managing clients (nutrition/exercise)&lt;/li&gt;
+&lt;li&gt;creating online content + selling&lt;/li&gt;
+&lt;li&gt;online training (later)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;nutritionalist (later)&lt;/li&gt;
+&lt;li&gt;chefs (later)&lt;/li&gt;
+&lt;li&gt;paid user(later)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
